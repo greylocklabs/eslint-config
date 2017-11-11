@@ -26,15 +26,15 @@
     ],
     "scripts": {
         "lint": "npm run lint:js && npm run lint:md",
-        "lint:js": "eslint --report-unused-disable-directives index.js rules/*.js test/*.js",
+        "lint:js": "eslint --report-unused-disable-directives index.js rules/** test/index.js",
         "lint:md": "mdl -c .mdlrc README.md CHANGELOG.md",
         "pretest": "npm run lint && eslint-find-rules --unused",
-        "test": "ava test",
+        "test": "ava test/index.js",
         "prepublish": "npm run test"
     },
     "main": "index.js",
     "engines": {
-        "node": ">= 4"
+        "node": ">= 6"
     },
     "ava": {
         "require": "babel-register",

@@ -60,7 +60,7 @@ module.exports = {
 
         'line-comment-position': [ 'error', 'beside' ], // single line comments go next to relevant line
         'linebreak-style': [ 'error', 'unix' ], // UNIX line breaks
-        'lines-around-comment': [ 'error', { beforeBlockComment: true } ], // enforce blank line before block comment
+        'lines-around-comment': [ 'error', { beforeBlockComment: true, allowClassStart: true } ], // enforce blank line before block comment
         'lines-between-class-members': 'error', // blank line after a class member
 
         'max-depth': 'off', // don't enforce a max nesting of blocks

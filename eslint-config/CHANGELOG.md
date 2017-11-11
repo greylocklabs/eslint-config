@@ -6,14 +6,37 @@ All notable changes to this project will be documented in this file. The format 
 
 ---
 
-## [Unreleased](https://github.com/greylocklabs/js/compare/v1.0.0...HEAD)
+## [Unreleased](https://github.com/greylocklabs/js/compare/1.1.0...HEAD)
 
 - N/A
 
-## [1.0.0](https://github.com/greylocklabs/releases/tag/v1.0.0) - 2017-11-11
+## [1.1.0](https://github.com/greylocklabs/js/compare/1.0.0...1.1.0) - 2017-11-11
+
+### Added
+
+- Outline for style guide
+- Actual test suite to make sure config works
+
+### Fixed
+
+- Install mdl to lint Markdown files from Travis CI
+
+### Changed
+
+- Stopped checking for rule MD024 in `mdl`
+- [`valid-jsdoc`](https://eslint.org/docs/rules/valid-jsdoc)] - Removed description requirement since we prefer explicit @description tag
+- [`lines-around-comment`](https://eslint.org/docs/rules/lines-around-comment)] - Relaxed setting to allow for classes to have block comment directly underneath
+- [`no-param-reassign`](https://eslint.org/docs/rules/no-param-reassign)] - Added `t` for AVA test context
+
+### Removed
+
+- Support for Node versions before 6.0; 4.0 LTS support ends in 6 months anyway
+- Placeholder tests
+
+## [1.0.0](https://github.com/greylocklabs/js/releases/tag/1.0.0) - 2017-11-11
 
 ### Added
 
 - Settings for all rules included in ESLint
 - Settings for the import, promise, ava, and security plugins
-- Tests
+- Placeholder tests

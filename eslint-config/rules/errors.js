@@ -58,7 +58,6 @@ module.exports = {
                     object: 'Object',
                     String: 'string',
                 },
-                matchDescription: '.+',
                 requireParamDescription: true,
                 requireReturnDescription: true,
                 requireReturnType: true,
