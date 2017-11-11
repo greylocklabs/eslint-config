@@ -26,6 +26,7 @@ All notable changes to this project will be documented in this file. The format 
 - Stopped checking for rule MD024 in `mdl`
 - [`valid-jsdoc`](https://eslint.org/docs/rules/valid-jsdoc)] - Removed description requirement since we prefer explicit @description tag
 - [`lines-around-comment`](https://eslint.org/docs/rules/lines-around-comment)] - Relaxed setting to allow for classes to have block comment directly underneath
+- [`no-param-reassign`](https://eslint.org/docs/rules/no-param-reassign)] - Added `t` for AVA test context
 
 ### Removed
 
