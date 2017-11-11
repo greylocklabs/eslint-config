@@ -1,0 +1,50 @@
+{
+    "name": "@greylocklabs/eslint-config",
+    "version": "1.0.0",
+    "description": "Greylock Labs ESLint rules for all internal and public JavaScript projects",
+    "author": {
+        "name": "Ty-Lucas Kelley",
+        "email": "ty@greylocklabs.com",
+        "url": "https://tylucaskelley.com"
+    },
+    "homepage": "https://github.com/greylocklabs/js/tree/master/eslint-config",
+    "bugs": "https://github.com/greylocklabs/js/issues",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/greylocklabs/js"
+    },
+    "license": "MIT",
+    "keywords": [
+        "eslint",
+        "eslintconfig",
+        "config",
+        "javascript",
+        "es2017",
+        "greylocklabs",
+        "styleguide",
+        "lint"
+    ],
+    "main": "index.js",
+    "engines": {
+        "node": ">= 4"
+    },
+    "scripts": {
+        "lint:js": "eslint --report-unused-disable-directives index.js rules/*.js test/*.js",
+        "lint:md": "mdl -c .mdlrc ."
+    },
+    "devDependencies": {
+        "eslint": "4.10.0",
+        "eslint-find-rules": "3.1.1",
+        "eslint-plugin-ava": "4.2.2",
+        "eslint-plugin-import": "2.8.0",
+        "eslint-plugin-promise": "3.6.0",
+        "eslint-plugin-security": "1.4.0"
+    },
+    "peerDependencies": {
+        "eslint": "^4.10.0",
+        "eslint-plugin-ava": "^4.2.2",
+        "eslint-plugin-import": "^2.8.0",
+        "eslint-plugin-promise": "^3.6.0",
+        "eslint-plugin-security": "^1.4.0"
+    }
+}
