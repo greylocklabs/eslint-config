@@ -34,7 +34,7 @@
     },
     "main": "index.js",
     "engines": {
-        "node": ">= 4"
+        "node": ">= 6"
     },
     "ava": {
         "require": "babel-register",

@@ -29,6 +29,7 @@ All notable changes to this project will be documented in this file. The format 
 
 ### Removed
 
+- Support for Node versions before 6.0; 4.0 LTS support ends in 6 months anyway
 - Placeholder tests
 
 ## [1.0.0](https://github.com/greylocklabs/js/releases/tag/1.0.0) - 2017-11-11
