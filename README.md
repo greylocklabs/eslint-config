@@ -11,7 +11,23 @@ latest ECMAScript specifications (currently ES2017).
 
 Just looking for the ESLint plugin? Find it [here][3].
 
-## Table of Contents
+### Writing JavaScript
+
+TBD
+
+### Testing
+
+TBD
+
+### Project Structure
+
+TBD
+
+### Documentation
+
+TBD
+
+### Linting
 
 TBD
 
