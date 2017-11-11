@@ -6,6 +6,9 @@ Greylock Labs ESLint rules for all internal and public JavaScript projects
 
 This package contains all of our ESLint rules.
 
+[![npm version](https://badge.fury.io/js/%40greylocklabs%2Feslint-config.svg)](https://badge.fury.io/js/%40greylocklabs%2Feslint-config)
+[![Build Status](https://travis-ci.org/greylocklabs/js.svg?branch=master)](https://travis-ci.org/greylocklabs/js)
+
 ## Installation
 
 First, install the package:

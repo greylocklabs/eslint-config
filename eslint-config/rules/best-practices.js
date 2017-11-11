@@ -81,6 +81,7 @@ module.exports = {
                     'request', // Express request
                     'res', // Express response
                     'response', // Express response
+                    't', // AVA test object
                 ],
             },
         ],
