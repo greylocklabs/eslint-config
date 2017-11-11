@@ -24,15 +24,27 @@
         "styleguide",
         "lint"
     ],
+    "scripts": {
+        "lint": "npm run lint:js && npm run lint:md",
+        "lint:js": "eslint --report-unused-disable-directives index.js rules/*.js test/*.js",
+        "lint:md": "mdl -c .mdlrc README.md CHANGELOG.md",
+        "pretest": "npm run lint && eslint-find-rules --unused",
+        "test": "ava test",
+        "prepublish": "npm run test"
+    },
     "main": "index.js",
     "engines": {
         "node": ">= 4"
     },
-    "scripts": {
-        "lint:js": "eslint --report-unused-disable-directives index.js rules/*.js test/*.js",
-        "lint:md": "mdl -c .mdlrc ."
+    "ava": {
+        "require": "babel-register",
+        "babel": "inherit",
+        "failFast": true
     },
     "devDependencies": {
+        "ava": "0.23.0",
+        "babel-cli": "6.26.0",
+        "babel-preset-env": "1.6.1",
         "eslint": "4.10.0",
         "eslint-find-rules": "3.1.1",
         "eslint-plugin-ava": "4.2.2",
