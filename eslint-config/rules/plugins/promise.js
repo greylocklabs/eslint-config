@@ -20,12 +20,12 @@ module.exports = {
         'promise/no-nesting': 'warn', // avoid nested then() or catch() statements
         'promise/no-promise-in-callback': 'warn', // avoid using promises inside of callbacks
         'promise/no-callback-in-promise': 'warn', // avoid calling cb() inside of a then() (use nodeify instead)
-        'promise/avoid-new': 'warn', // avoid creating new promises outside of utility libs (use pify instead)
+        'promise/avoid-new': 'off', // avoid creating new promises outside of utility libs (use pify instead)
         'promise/no-return-in-finally': 'warn', // disallow return statements in finally()
 
         'promise/no-native': 'off', // in an ES5 environment, make sure to create a Promise constructor before using
 
         'promise/prefer-await-to-then': 'error', // prefer await to then() for reading Promise values
-        'promise/prefer-await-to-callbacks': 'error', // prefer async/await to the callback pattern
+        'promise/prefer-await-to-callbacks': 'off', // prefer async/await to the callback pattern
     },
 };

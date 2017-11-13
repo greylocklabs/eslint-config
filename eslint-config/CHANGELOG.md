@@ -6,9 +6,17 @@ All notable changes to this project will be documented in this file. The format 
 
 ---
 
-## [Unreleased](https://github.com/greylocklabs/js/compare/1.1.0...HEAD)
+## [Unreleased](https://github.com/greylocklabs/js/compare/1.2.0...HEAD)
 
 - N/A
+
+## [1.2.0](https://github.com/greylocklabs/js/compare/1.1.0...1.2.0) - 2017-11-13
+
+### Changed
+
+- Relax rules for [`eslint-plugin-promise`](https://github.com/xjamundx/eslint-plugin-promise):
+    - Turn off `promise/avoid-new`
+    - Turn off `promise/prefer-await-to-callbacks`
 
 ## [1.1.0](https://github.com/greylocklabs/js/compare/1.0.0...1.1.0) - 2017-11-11
 
