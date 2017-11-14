@@ -38,8 +38,9 @@ We rely on and have set rules for the following plugins:
 
 1. [eslint-plugin-ava](https://github.com/avajs/eslint-plugin-ava)
 2. [eslint-plugin-import](https://github.com/benmosher/eslint-plugin-import)
-3. [eslint-plugin-promise](https://github.com/xjamundx/eslint-plugin-promise)
-4. [eslint-plugin-security](https://github.com/nodesecurity/eslint-plugin-security)
+3. [eslint-plugin-flowtype](https://github.com/gajus/eslint-plugin-flowtype)
+4. [eslint-plugin-promise](https://github.com/xjamundx/eslint-plugin-promise)
+5. [eslint-plugin-security](https://github.com/nodesecurity/eslint-plugin-security)
 
 ## Configuring
 

@@ -16,6 +16,7 @@ module.exports = {
         './rules/variables',
 
         './rules/plugins/ava',
+        './rules/plugins/flowtype',
         './rules/plugins/import',
         './rules/plugins/promise',
         './rules/plugins/security',

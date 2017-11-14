@@ -10,6 +10,12 @@ All notable changes to this project will be documented in this file. The format 
 
 - N/A
 
+## [1.3.0](https://github.com/greylocklabs/js/compare/1.2.0...1.3.0) - 2017-11-13
+
+### Added
+
+- Support for Flow via [eslint-plugin-flowtype](https://github.com/gajus/eslint-plugin-flowtype)
+
 ## [1.2.0](https://github.com/greylocklabs/js/compare/1.1.0...1.2.0) - 2017-11-13
 
 ### Changed

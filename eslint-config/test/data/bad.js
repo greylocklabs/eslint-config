@@ -1,3 +1,5 @@
+/* @flow */
+
 /**
  * @file Test file with errors
  *
@@ -24,7 +26,7 @@ const generatePassword = function generatePassword() {
  *
  * @returns {string} Hex digest of hash
  */
-const hash = function hash(alg, data) {
+const hash = function hash(alg : string, data) {
     const digest = crypto.createHash(alg).update(data)
         .digest('hex')
         .toLowerCase();
