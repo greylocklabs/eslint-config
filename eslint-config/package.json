@@ -1,6 +1,6 @@
 {
     "name": "@greylocklabs/eslint-config",
-    "version": "1.4.0",
+    "version": "1.4.1",
     "description": "Greylock Labs ESLint rules for all internal and public JavaScript projects",
     "author": {
         "name": "Ty-Lucas Kelley",
@@ -31,7 +31,7 @@
         "lint:md": "mdl -c .mdlrc README.md CHANGELOG.md",
         "pretest": "npm run lint && eslint-find-rules --unused",
         "test": "ava test/index.js",
-        "prepare": "npm run test"
+        "prepublishOnly": "npm run test"
     },
     "main": "index.js",
     "engines": {
