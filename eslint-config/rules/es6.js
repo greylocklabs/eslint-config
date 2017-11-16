@@ -11,11 +11,7 @@ module.exports = {
     },
     rules: {
         'arrow-body-style': [ 'error', 'as-needed' ], // enforce consistent arrow body style
-        'arrow-parens': [
-            'error',
-            'as-needed',
-            { requireForBlockBody: true },
-        ],
+        'arrow-parens': [ 'error', 'always' ], // enforce use of () around arrow function arguments
         'arrow-spacing': 'error', // enforce consistent spacing around arrows
 
         'constructor-super': 'error', // validate super() usage inside constructor()
@@ -41,7 +37,7 @@ module.exports = {
         'no-useless-rename': 'error', // disallow renaming import, export, and destructured assignments to the same name
         'no-var': 'error', // prefer let and const to var
 
-        'object-shorthand': [ 'error', 'never' ], // prefer old-style object notation for consistency
+        'object-shorthand': [ 'error', 'consistent-as-needed' ], // be consistent when using object shorthand syntax
 
         'prefer-arrow-callback': 'error', // always use arrow functions for callbacks
         'prefer-const': [ // prefer const over let when applicable

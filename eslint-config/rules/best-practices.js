@@ -73,16 +73,7 @@ module.exports = {
         'no-param-reassign': [ // disallow reassigning function arguments except in specific cases
             'error',
             {
-                props: true,
-                ignorePropertyModificationsFor: [
-                    'e', // Events
-                    'ctx', // Koa context
-                    'req', // Express request
-                    'request', // Express request
-                    'res', // Express response
-                    'response', // Express response
-                    't', // AVA test object
-                ],
+                props: false,
             },
         ],
         'no-proto': 'error', // __proto__ is deprecated

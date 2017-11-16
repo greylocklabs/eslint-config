@@ -30,7 +30,13 @@ module.exports = {
         'func-call-spacing': 'error', // no space between function and invocation
         'func-name-matching': 'error', // func name must match variable name
         'func-names': 'error', // functions must be named
-        'func-style': [ 'error', 'expression' ], // functions must be expressions
+        'func-style': [ // always use function expressions
+            'error',
+            'expression',
+            {
+                allowArrowFunctions: true,
+            },
+        ],
         'function-paren-newline': 'error', // if newline inside function params, place newline between parentheses
 
         'id-blacklist': 'off', // no blacklist for variable or function names

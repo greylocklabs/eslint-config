@@ -18,7 +18,7 @@ test.beforeEach((t) => {
 
 test('ESLint config fails for improperly formatted file', (t) => {
     const report = t.context.cli.executeOnFiles([ 'data/bad.js' ]);
-    const numErrors = 15;
+    const numErrors = 25;
     const numWarnings = 1;
 
     t.is(report.errorCount, numErrors);

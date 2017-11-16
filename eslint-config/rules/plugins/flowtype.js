@@ -25,9 +25,9 @@ module.exports = {
 
         'flowtype/object-type-delimiter': [ 'error', 'comma' ],
 
-        'flowtype/require-parameter-type': 'off',
-        'flowtype/require-return-type': 'off',
-        'flowtype/require-valid-file-annotation': 'off',
+        'flowtype/require-parameter-type': 'error',
+        'flowtype/require-return-type': 'error',
+        'flowtype/require-valid-file-annotation': 'error',
         'flowtype/require-variable-type': 'error',
 
         'flowtype/semi': 'off',
