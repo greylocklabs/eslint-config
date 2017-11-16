@@ -32,7 +32,6 @@ module.exports = {
             'innerHeight',
             'innerWidth',
             'isFinite',
-            'isNaN',
             'length',
             'location',
             'locationbar',
@@ -80,7 +79,7 @@ module.exports = {
         'no-shadow-restricted-names': 'error', // no shadowing restricted names like arguments
         'no-undef': 'error', // disallow undeclared variable unless global
         'no-undef-init': 'error', // don't initialize variable as undefined
-        'no-undefined': 'error', // don't use undefined, prefer null
+        'no-undefined': 'off', // allow for use of undefined
         'no-unused-vars': 'error', // all variables must be used if declared
         'no-use-before-define': 'error', // define before using a function, variable, or class
     },

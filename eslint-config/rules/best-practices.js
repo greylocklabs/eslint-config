@@ -50,8 +50,8 @@ module.exports = {
         'no-labels': 'error', // disallow use of labels
         'no-lone-blocks': 'error', // no unnecessary nested blocks in es5 environments
         'no-loop-func': 'error', // no creating functions within loops
-        'no-magic-numbers': [ // most numbers should be declared as constants before use for readability
-            'error',
+        'no-magic-numbers': [ // allow for magic numbers
+            'off',
             {
                 detectObjects: false,
                 enforceConst: true,

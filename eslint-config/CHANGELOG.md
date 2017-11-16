@@ -6,9 +6,16 @@ All notable changes to this project will be documented in this file. The format 
 
 ---
 
-## [Unreleased](https://github.com/greylocklabs/js/compare/1.4.1...HEAD)
+## [Unreleased](https://github.com/greylocklabs/js/compare/1.5.0...HEAD)
 
 - N/A
+
+## [1.5.0](https://github.com/greylocklabs/js/compare/1.4.1...1.5.0) - 2017-11-15
+
+### Changed
+
+- Turn off [`no-magic-numbers`](https://eslint.org/docs/rules/no-magic-numbers) - too annoying when writing tests, etc.
+- Turn off [`no-undefined`](https://eslint.org/docs/rules/no-undefined) - too annoying when writing tests, etc.
 
 ## [1.4.1](https://github.com/greylocklabs/js/compare/1.4.0...1.4.1) - 2017-11-15
 
