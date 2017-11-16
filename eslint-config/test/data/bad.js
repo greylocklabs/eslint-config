@@ -34,6 +34,12 @@ const hash = function hash(alg : string, data) {
     return digest
 };
 
+const x = 'x';
+const stuff = {
+    x,
+    a: 0,
+};
+
 /**
  * @class User
  * @description Represents a website user

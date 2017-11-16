@@ -17,7 +17,7 @@ module.exports = {
         'security/detect-non-literal-fs-filename': 'warn',
         'security/detect-non-literal-regexp': 'warn',
         'security/detect-non-literal-require': 'warn',
-        'security/detect-object-injection': 'warn',
+        'security/detect-object-injection': 'off',
         'security/detect-possible-timing-attacks': 'warn',
         'security/detect-pseudoRandomBytes': 'warn',
         'security/detect-unsafe-regex': 'warn',
