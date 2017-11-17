@@ -34,7 +34,12 @@ module.exports = {
             },
         ],
         'import/default': 'error', // ensure a default export is present for default import
-        'import/namespace': 'error', // ensure imported namespaces contain dereferenced properties as they are dereferenced
+        'import/namespace': [ // ensure imported namespaces contain dereferenced properties as they are dereferenced
+            'error',
+            {
+                allowComputed: true,
+            },
+        ],
         'import/no-restricted-paths': 'off', // restrict certain paths for given folders
         'import/no-absolute-path': 'error', // forbid import of modules using absolute paths
         'import/no-dynamic-require': 'error', // forbid require() calls with expressions

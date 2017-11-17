@@ -6,15 +6,21 @@ All notable changes to this project will be documented in this file. The format 
 
 ---
 
-## [Unreleased](https://github.com/greylocklabs/js/compare/1.6.0...HEAD)
+## [Unreleased](https://github.com/greylocklabs/js/compare/1.7.0...HEAD)
 
 - N/A
+
+## [1.7.0](https://github.com/greylocklabs/js/compare/1.6.0...1.7.0) - 2017-11-17
+
+### Changed
+
+- [`import/namespace`](https://github.com/benmosher/eslint-plugin-import/blob/master/docs/rules/namespace.md) - Allow computed properties
 
 ## [1.6.0](https://github.com/greylocklabs/js/compare/1.5.0...1.6.0) - 2017-11-15
 
 ### Changed
 
-- [`prefer-destructuring`]() - Turn off for arrays
+- [`prefer-destructuring`](https://eslint.org/docs/rules/prefer-destructuring) - Turn off for arrays
 
 ## [1.5.0](https://github.com/greylocklabs/js/compare/1.4.1...1.5.0) - 2017-11-15
 
