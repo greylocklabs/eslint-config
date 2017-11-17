@@ -47,7 +47,7 @@ module.exports = {
                 ignoreReadBeforeAssign: true,
             },
         ],
-        'prefer-destructuring': [ // prefer object and array destructuring in most cases
+        'prefer-destructuring': [ // prefer object destructuring but not for arrays
             'error',
             {
                 VariableDeclarator: {
@@ -55,7 +55,7 @@ module.exports = {
                     object: true,
                 },
                 AssignmentExpression: {
-                    array: true,
+                    array: false,
                     object: true,
                 },
             },

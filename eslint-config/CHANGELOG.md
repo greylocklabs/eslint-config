@@ -6,9 +6,15 @@ All notable changes to this project will be documented in this file. The format 
 
 ---
 
-## [Unreleased](https://github.com/greylocklabs/js/compare/1.5.0...HEAD)
+## [Unreleased](https://github.com/greylocklabs/js/compare/1.6.0...HEAD)
 
 - N/A
+
+## [1.6.0](https://github.com/greylocklabs/js/compare/1.5.0...1.6.0) - 2017-11-15
+
+### Changed
+
+- [`prefer-destructuring`]() - Turn off for arrays
 
 ## [1.5.0](https://github.com/greylocklabs/js/compare/1.4.1...1.5.0) - 2017-11-15
 
