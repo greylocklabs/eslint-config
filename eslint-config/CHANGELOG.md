@@ -6,9 +6,15 @@ All notable changes to this project will be documented in this file. The format 
 
 ---
 
-## [Unreleased](https://github.com/greylocklabs/js/compare/1.7.0...HEAD)
+## [Unreleased](https://github.com/greylocklabs/js/compare/1.8.0...HEAD)
 
 - N/A
+
+## [1.8.0](https://github.com/greylocklabs/js/compare/1.7.0...1.8.0) - 2017-11-18
+
+### Changed
+
+- [`security/detect-non-literal-fs-filename`](https://github.com/nodesecurity/eslint-plugin-security#detect-non-literal-fs-filename) - Turn off to allow for variables when using `fs.writeFile` in Node.js
 
 ## [1.7.0](https://github.com/greylocklabs/js/compare/1.6.0...1.7.0) - 2017-11-17
 
