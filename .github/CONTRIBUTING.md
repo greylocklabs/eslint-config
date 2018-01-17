@@ -57,19 +57,10 @@ to ensure you aren't duplicating anyone's work. Then, do the following:
 
 Please follow the coding style conventions detailed below:
 
-### JavaScript
-
-Given that this project includes our style guide for JS code, just follow that! You can run `npm run lint:js` to check
-your code.
-
-### Markdown
-
-Simply make sure that [mdl](https://github.com/markdownlint/markdownlint) passes. Install it on your system with
-`gem install mdl`; then, run the command `npm run lint:md` to check that all Markdown files are styled properly. Note
-that if you add Markdown files to a new directory, you'll have to copy over the `.mdlrc` and `.mdl.style.rb` files to
-that directory as well.
+1. This repository is a style guide! See [README.md][5].
 
 [1]: mailto:ty@greylocklabs.com
 [2]: https://github.com/greylocklabs/js/issues/new
 [3]: https://github.com/greylocklabs/js/compare
 [4]: https://github.com/greylocklabs/js/pulls
+[5]: https://github.com/greylocklabs/js#readme
