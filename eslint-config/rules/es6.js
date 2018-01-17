@@ -24,6 +24,8 @@ module.exports = {
             },
         ],
 
+        'implicit-arrow-linebreak': 'error', // no line break between the arrow and function body
+
         'no-class-assign': 'error', // disallow modifying variables of class declarations
         'no-confusing-arrow': [ 'error', { allowParens: true } ], // avoid arrow functions that look like comparisons unless using parentheses
         'no-const-assign': 'error', // no modifying constants

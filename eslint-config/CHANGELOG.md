@@ -10,10 +10,11 @@ All notable changes to this project will be documented in this file. The format 
 
 - N/A
 
-## [1.8.1][31] - 2018-01-17
+## [1.8.1][32] - 2018-01-17
 
 ## Added
 
+- [`implicit-arrow-linebreak`][31] - No line break between ES6 arrow and function body
 - [`flowtype/no-flow-fix-me-comments`][30] - Add warning for `$FlowFixMe` comments in Flow-enabled projects
 
 ### Changed
@@ -141,4 +142,5 @@ All notable changes to this project will be documented in this file. The format 
 [28]: https://github.com/nodesecurity/eslint-plugin-security#detect-non-literal-fs-filename
 [29]: https://github.com/greylocklabs/js/compare/1.7.0...1.8.0
 [30]: https://github.com/gajus/eslint-plugin-flowtype#eslint-plugin-flowtype-rules-no-flow-fix-me-comments
-[31]: https://github.com/greylocklabs/js/compare/1.8.0...1.8.1
+[31]: https://eslint.org/docs/rules/implicit-arrow-linebreak
+[32]: https://github.com/greylocklabs/js/compare/1.8.0...1.8.1
