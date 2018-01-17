@@ -6,9 +6,15 @@ All notable changes to this project will be documented in this file. The format 
 
 ---
 
-## [Unreleased](https://github.com/greylocklabs/js/compare/1.8.1...HEAD)
+## [Unreleased](https://github.com/greylocklabs/js/compare/1.8.2...HEAD)
 
 - N/A
+
+## [1.8.2][33] - 2018-01-17
+
+## Fixed
+
+- Add Markdownlint-CLI dependency (broke Travis build)
 
 ## [1.8.1][32] - 2018-01-17
 
@@ -144,3 +150,4 @@ All notable changes to this project will be documented in this file. The format 
 [30]: https://github.com/gajus/eslint-plugin-flowtype#eslint-plugin-flowtype-rules-no-flow-fix-me-comments
 [31]: https://eslint.org/docs/rules/implicit-arrow-linebreak
 [32]: https://github.com/greylocklabs/js/compare/1.8.0...1.8.1
+[33]: https://github.com/greylocklabs/js/compare/1.8.1...1.8.2
