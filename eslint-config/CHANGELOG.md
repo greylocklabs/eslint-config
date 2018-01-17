@@ -10,7 +10,11 @@ All notable changes to this project will be documented in this file. The format 
 
 - N/A
 
-## [1.8.1][30] - 2018-01-17
+## [1.8.1][31] - 2018-01-17
+
+## Added
+
+- [`flowtype/no-flow-fix-me-comments`][30] - Add warning for `$FlowFixMe` comments in Flow-enabled projects
 
 ### Changed
 
@@ -136,4 +140,5 @@ All notable changes to this project will be documented in this file. The format 
 [27]: https://github.com/greylocklabs/js/compare/1.6.0...1.7.0
 [28]: https://github.com/nodesecurity/eslint-plugin-security#detect-non-literal-fs-filename
 [29]: https://github.com/greylocklabs/js/compare/1.7.0...1.8.0
-[30]: https://github.com/greylocklabs/js/compare/1.8.0...1.8.1
+[30]: https://github.com/gajus/eslint-plugin-flowtype#eslint-plugin-flowtype-rules-no-flow-fix-me-comments
+[31]: https://github.com/greylocklabs/js/compare/1.8.0...1.8.1

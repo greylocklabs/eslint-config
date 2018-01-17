@@ -17,6 +17,7 @@ module.exports = {
         'flowtype/generic-spacing': [ 'error', 'never' ],
 
         'flowtype/no-dupe-keys': 'off', // duplicates eslint no-dupe-keys rule
+        'flowtype/no-flow-fix-me-comments': 'warn',
         'flowtype/no-mutable-array': 'off',
         'flowtype/no-types-missing-file-annotation': 'error',
         'flowtype/no-primitive-constructor-types': 'error',
