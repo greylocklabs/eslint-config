@@ -6,16 +6,17 @@ All notable changes to this project will be documented in this file. The format 
 
 ---
 
-## [Unreleased](https://github.com/greylocklabs/js/compare/1.9.0...HEAD)
+## [Unreleased](https://github.com/greylocklabs/js/compare/1.9.1...HEAD)
 
 - N/A
 
-## [1.9.0][34] - 2018-01-25
+## [1.9.1][34] - 2018-01-25
 
 ### Added
 
 - Rules for [`eslint-plugin-vue`][35]
 - Switch parser to `vue-eslint-parser` with `babel-eslint` for JS
+- Add [`flowtype/require-exact-type`][37] error
 
 ### Changed
 
@@ -162,6 +163,7 @@ All notable changes to this project will be documented in this file. The format 
 [31]: https://eslint.org/docs/rules/implicit-arrow-linebreak
 [32]: https://github.com/greylocklabs/js/compare/1.8.0...1.8.1
 [33]: https://github.com/greylocklabs/js/compare/1.8.1...1.8.2
-[34]: https://github.com/greylocklabs/js/compare/1.8.2...1.9.0
+[34]: https://github.com/greylocklabs/js/compare/1.8.2...1.9.1
 [35]: https://github.com/vuejs/eslint-plugin-vue
 [36]: https://github.com/benmosher/eslint-plugin-import/blob/master/docs/rules/no-unresolved.md
+[37]: https://github.com/gajus/eslint-plugin-flowtype#eslint-plugin-flowtype-rules-require-exact-type
