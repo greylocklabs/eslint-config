@@ -41,6 +41,7 @@ We rely on and have set rules for the following plugins:
 3. [eslint-plugin-flowtype](https://github.com/gajus/eslint-plugin-flowtype)
 4. [eslint-plugin-promise](https://github.com/xjamundx/eslint-plugin-promise)
 5. [eslint-plugin-security](https://github.com/nodesecurity/eslint-plugin-security)
+6. [eslint-plugin-vue](https://github.com/vuejs/eslint-plugin-vue)
 
 Note that since Flow is still under heavy development and has some issues in applications with a large amount of
 dependencies, you can omit using it by simply not including the `/* @flow */` comment at the top of your JavaScript

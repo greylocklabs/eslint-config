@@ -6,19 +6,30 @@ All notable changes to this project will be documented in this file. The format 
 
 ---
 
-## [Unreleased](https://github.com/greylocklabs/js/compare/1.8.2...HEAD)
+## [Unreleased](https://github.com/greylocklabs/js/compare/1.9.0...HEAD)
 
 - N/A
 
+## [1.9.0][34] - 2018-01-25
+
+### Added
+
+- Rules for [`eslint-plugin-vue`][35]
+- Switch parser to `vue-eslint-parser` with `babel-eslint` for JS
+
+### Changed
+
+- [`eslint-plugin-import/no-unresolved`][36] - No case sensitivity
+
 ## [1.8.2][33] - 2018-01-17
 
-## Fixed
+### Fixed
 
 - Add Markdownlint-CLI dependency (broke Travis build)
 
 ## [1.8.1][32] - 2018-01-17
 
-## Added
+### Added
 
 - [`implicit-arrow-linebreak`][31] - No line break between ES6 arrow and function body
 - [`flowtype/no-flow-fix-me-comments`][30] - Add warning for `$FlowFixMe` comments in Flow-enabled projects
@@ -151,3 +162,6 @@ All notable changes to this project will be documented in this file. The format 
 [31]: https://eslint.org/docs/rules/implicit-arrow-linebreak
 [32]: https://github.com/greylocklabs/js/compare/1.8.0...1.8.1
 [33]: https://github.com/greylocklabs/js/compare/1.8.1...1.8.2
+[34]: https://github.com/greylocklabs/js/compare/1.8.2...1.9.0
+[35]: https://github.com/vuejs/eslint-plugin-vue
+[36]: https://github.com/benmosher/eslint-plugin-import/blob/master/docs/rules/no-unresolved.md

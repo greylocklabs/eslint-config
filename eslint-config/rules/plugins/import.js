@@ -25,7 +25,7 @@ module.exports = {
         ],
     },
     rules: {
-        'import/no-unresolved': 'error', // ensure imports point to a file/module that can be resolved
+        'import/no-unresolved': [ 'error', { caseSensitive: false } ], // ensure imports point to a file/module that can be resolved
         'import/named': [ // ensure named imports correspond to a named export in the remote file
             'error',
             {

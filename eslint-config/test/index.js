@@ -2,7 +2,7 @@
  * @file Tests for ESLint rules
  *
  * @author Ty-Lucas Kelley <ty@greylocklabs.com> (https://greylocklabs.com)
- * @copyright Copyright (c) 2017 Greylock Labs. See LICENSE file for details.
+ * @copyright Copyright (c) 2017-2018 Greylock Labs. See LICENSE file for details.
  */
 
 import test from 'ava';
@@ -16,7 +16,7 @@ test.beforeEach((t) => {
     });
 });
 
-test('ESLint config fails for improperly formatted file', (t) => {
+test('ESLint config fails for improperly formatted .js file', (t) => {
     const report = t.context.cli.executeOnFiles([ 'data/bad.js' ]);
     const numErrors = 25;
     const numWarnings = 1;
@@ -25,8 +25,24 @@ test('ESLint config fails for improperly formatted file', (t) => {
     t.is(report.warningCount, numWarnings);
 });
 
-test('ESLint config passes for properly formatted file', (t) => {
+test('ESLint config passes for properly formatted .js file', (t) => {
     const report = t.context.cli.executeOnFiles([ 'data/good.js' ]);
+
+    t.is(report.errorCount, 0);
+    t.is(report.warningCount, 0);
+});
+
+test('ESLint config fails for improperly formatted .vue file', (t) => {
+    const report = t.context.cli.executeOnFiles([ 'data/bad.vue' ]);
+    const numErrors = 5;
+    const numWarnings = 0;
+
+    t.is(report.errorCount, numErrors);
+    t.is(report.warningCount, numWarnings);
+});
+
+test('ESLint config passes for properly formatted .vue file', (t) => {
+    const report = t.context.cli.executeOnFiles([ 'data/good.vue' ]);
 
     t.is(report.errorCount, 0);
     t.is(report.warningCount, 0);

@@ -20,6 +20,7 @@ module.exports = {
         './rules/plugins/import',
         './rules/plugins/promise',
         './rules/plugins/security',
+        './rules/plugins/vue',
     ].map(require.resolve),
     parserOptions: {
         ecmaVersion: 2017,
