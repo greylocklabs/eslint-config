@@ -28,9 +28,15 @@ module.exports = {
 
         'flowtype/require-exact-type': 'error',
         'flowtype/require-parameter-type': 'error',
-        'flowtype/require-return-type': 'error',
+        'flowtype/require-return-type': [
+            'error',
+            'always',
+            {
+                annotateUndefined: 'never',
+            },
+        ],
         'flowtype/require-valid-file-annotation': 'error',
-        'flowtype/require-variable-type': 'error',
+        'flowtype/require-variable-type': 'off', // TODO: turn back on when func expressions can be excluded
 
         'flowtype/semi': 'off',
         'flowtype/sort-keys': 'off',

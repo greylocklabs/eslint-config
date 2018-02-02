@@ -6,9 +6,19 @@ All notable changes to this project will be documented in this file. The format 
 
 ---
 
-## [Unreleased](https://github.com/greylocklabs/js/compare/1.9.1...HEAD)
+## [Unreleased](https://github.com/greylocklabs/js/compare/1.10.0...HEAD)
 
 - N/A
+
+## [1.10.0][35] - 2018-02-01
+
+### Changed
+
+- Relax rules for Flowtype; don't require variables to be annotated and don't require undefined return annotation
+- Don't require JSDoc return tag for undefined return
+- Relax comment rules
+- Turn off `guard-for-in` rule; too annoying
+- Update dependencies
 
 ## [1.9.1][34] - 2018-01-25
 
