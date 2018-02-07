@@ -78,7 +78,7 @@ module.exports = {
             },
         ],
         'import/newline-after-import': 'error', // enforce a newline after import statements
-        'import/prefer-default-export': 'error', // prefer a default export if module exports a single name
+        'import/prefer-default-export': 'warn', // prefer a default export if module exports a single name
         'import/max-dependencies': 'off', // limit the maximum number of dependencies a module can have
         'import/no-unassigned-import': 'off', // forbid unassigned imports
         'import/no-named-default': 'error', // forbid named default exports
