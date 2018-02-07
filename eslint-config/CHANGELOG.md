@@ -183,4 +183,3 @@ All notable changes to this project will be documented in this file. The format 
 [37]: https://github.com/gajus/eslint-plugin-flowtype#eslint-plugin-flowtype-rules-require-exact-type
 [38]: https://github.com/greylocklabs/js/compare/1.9.1...1.10.0
 [39]: https://github.com/greylocklabs/js/compare/1.10.0...1.11.0
-
