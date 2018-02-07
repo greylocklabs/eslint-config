@@ -6,11 +6,15 @@ All notable changes to this project will be documented in this file. The format 
 
 ---
 
-## [Unreleased](https://github.com/greylocklabs/js/compare/1.10.0...HEAD)
+## [Unreleased](https://github.com/greylocklabs/js/compare/1.11.0...HEAD)
 
 - N/A
 
-## [1.10.0][35] - 2018-02-01
+## [1.11.0][39] - 2018-02-06
+
+- Relax a few rules
+
+## [1.10.0][38] - 2018-02-01
 
 ### Changed
 
@@ -177,3 +181,5 @@ All notable changes to this project will be documented in this file. The format 
 [35]: https://github.com/vuejs/eslint-plugin-vue
 [36]: https://github.com/benmosher/eslint-plugin-import/blob/master/docs/rules/no-unresolved.md
 [37]: https://github.com/gajus/eslint-plugin-flowtype#eslint-plugin-flowtype-rules-require-exact-type
+[38]: https://github.com/greylocklabs/js/compare/1.9.1...1.10.0
+[39]: https://github.com/greylocklabs/js/compare/1.10.0...1.11.0

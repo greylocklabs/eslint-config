@@ -160,7 +160,7 @@ module.exports = {
         quotes: [ 'error', 'single' ],
 
         'require-jsdoc': [ // require jsdoc annotations
-            'error',
+            'warn',
             {
                 require: {
                     FunctionDeclaration: true,
