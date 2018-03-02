@@ -30,10 +30,16 @@ module.exports = {
 
         'flowtype/require-exact-type': 'error',
         'flowtype/require-parameter-type': 'error',
-        'flowtype/require-return-type': 'error',
+        'flowtype/require-return-type': [
+            'error',
+            'always',
+            {
+                annotateUndefined: 'never',
+            },
+        ],
         'flowtype/require-types-at-top': 'error', // type declarations must be directly after import declarations
-        'flowtype/require-valid-file-annotation': 'error',
         'flowtype/require-variable-type': 'off', // TODO: https://github.com/gajus/eslint-plugin-flowtype/issues/309
+        'flowtype/require-valid-file-annotation': 'error',
 
         'flowtype/semi': 'off',
         'flowtype/sort-keys': 'off',

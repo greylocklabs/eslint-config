@@ -61,6 +61,7 @@ module.exports = {
                 requireParamDescription: true,
                 requireReturnDescription: true,
                 requireReturnType: true,
+                requireReturn: false,
             },
         ],
         'valid-typeof': [ 'error', { requireStringLiterals: true } ], // require typeof operator to be compared against string

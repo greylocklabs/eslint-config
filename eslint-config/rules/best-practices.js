@@ -25,7 +25,7 @@ module.exports = {
 
         eqeqeq: 'error', // always use === and !==
 
-        'guard-for-in': 'error', // for-in loops must have an if statement to prevent accidental operation on built-in object properties
+        'guard-for-in': 'off', // don't warn about for-in loops without filter
 
         'no-alert': 'warn', // disallow use of alert prompts in favor of less obtrusive custom UI elements
         'no-caller': 'error', // arguments.caller is deprecated
@@ -148,6 +148,7 @@ module.exports = {
             'warn',
             {
                 terms: [
+                    'tbd',
                     'todo',
                     'fixme',
                     'xxx',

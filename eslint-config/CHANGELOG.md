@@ -6,11 +6,11 @@ All notable changes to this project will be documented in this file. The format 
 
 ---
 
-## [Unreleased](https://github.com/greylocklabs/js/compare/1.9.2...HEAD)
+## [Unreleased](https://github.com/greylocklabs/js/compare/1.12.0...HEAD)
 
 - N/A
 
-## [1.9.2][45] - 2018-03-02
+## [1.12.0][45] - 2018-03-02
 
 ### Added
 
@@ -23,9 +23,19 @@ Support for newly available linter rules:
 - [`vue/attributes-order`][42] error
 - [`vue/prop-name-casing`][43] error (camelCase required)
 
+## [1.11.0][47] - 2018-02-06
+
+- Relax a few rules
+
+## [1.10.0][46] - 2018-02-01
+
 ### Changed
 
-- Relax [`flowtype/require-variable-type`][44] until rule allows for function expressions
+- Relax rules for Flowtype; don't require variables to be annotated and don't require undefined return annotation
+- Don't require JSDoc return tag for undefined return
+- Relax comment rules
+- Turn off `guard-for-in` rule; too annoying
+- Update dependencies
 
 ## [1.9.1][34] - 2018-01-25
 
@@ -191,4 +201,6 @@ Support for newly available linter rules:
 [42]: https://github.com/vuejs/eslint-plugin-vue/blob/master/docs/rules/attributes-order.md
 [43]: https://github.com/vuejs/eslint-plugin-vue/blob/master/docs/rules/prop-name-casing.md
 [44]: https://github.com/gajus/eslint-plugin-flowtype/blob/master/.README/rules/require-variable-type.md
-[45]: https://github.com/greylocklabs/js/compare/1.9.1...1.9.2
+[45]: https://github.com/greylocklabs/js/compare/1.11.0...1.12.0
+[46]: https://github.com/greylocklabs/js/compare/1.9.1...1.10.0
+[47]: https://github.com/greylocklabs/js/compare/1.10.0...1.11.0

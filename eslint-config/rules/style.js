@@ -64,9 +64,18 @@ module.exports = {
             },
         ],
 
-        'line-comment-position': [ 'error', 'beside' ], // single line comments go next to relevant line
+        'line-comment-position': 'off', // don't care about line comment position
         'linebreak-style': [ 'error', 'unix' ], // UNIX line breaks
-        'lines-around-comment': [ 'error', { beforeBlockComment: true, allowClassStart: true } ], // enforce blank line before block comment
+        'lines-around-comment': [
+            'error',
+            {
+                beforeBlockComment: true,
+                allowBlockStart: true,
+                allowClassStart: true,
+                allowObjectStart: true,
+                allowArrayStart: true,
+            },
+        ],
         'lines-between-class-members': 'error', // blank line after a class member
 
         'max-depth': 'off', // don't enforce a max nesting of blocks
@@ -151,7 +160,7 @@ module.exports = {
         quotes: [ 'error', 'single' ],
 
         'require-jsdoc': [ // require jsdoc annotations
-            'error',
+            'warn',
             {
                 require: {
                     FunctionDeclaration: true,
