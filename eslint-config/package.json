@@ -1,6 +1,6 @@
 {
     "name": "@greylocklabs/eslint-config",
-    "version": "1.9.1",
+    "version": "1.9.2",
     "description": "Greylock Labs ESLint rules for all internal and public JavaScript projects",
     "author": {
         "name": "Ty-Lucas Kelley",
@@ -43,30 +43,30 @@
         "verbose": true
     },
     "devDependencies": {
-        "ava": "0.24.0",
+        "ava": "0.25.0",
         "babel-cli": "6.26.0",
-        "babel-eslint": "8.2.1",
+        "babel-eslint": "8.2.2",
         "babel-preset-env": "1.6.1",
-        "eslint": "4.16.0",
-        "eslint-find-rules": "3.1.1",
-        "eslint-plugin-ava": "4.5.0",
-        "eslint-plugin-flowtype": "2.42.0",
-        "eslint-plugin-import": "2.8.0",
+        "eslint": "4.18.1",
+        "eslint-find-rules": "3.2.1",
+        "eslint-plugin-ava": "4.5.1",
+        "eslint-plugin-flowtype": "2.46.1",
+        "eslint-plugin-import": "2.9.0",
         "eslint-plugin-promise": "3.6.0",
         "eslint-plugin-security": "1.4.0",
-        "eslint-plugin-vue": "4.2.0",
-        "markdownlint-cli": "0.6.0",
-        "vue-eslint-parser": "2.0.2"
+        "eslint-plugin-vue": "4.3.0",
+        "markdownlint-cli": "0.7.1",
+        "vue-eslint-parser": "2.0.3"
     },
     "peerDependencies": {
-        "eslint": "^4.16.0",
-        "babel-eslint": "^8.2.1",
-        "eslint-plugin-ava": "^4.5.0",
-        "eslint-plugin-flowtype": "^2.42.0",
-        "eslint-plugin-import": "^2.8.0",
+        "eslint": "^4.18.1",
+        "babel-eslint": "^8.2.2",
+        "eslint-plugin-ava": "^4.5.1",
+        "eslint-plugin-flowtype": "^2.46.1",
+        "eslint-plugin-import": "^2.9.0",
         "eslint-plugin-promise": "^3.6.0",
         "eslint-plugin-security": "^1.4.0",
-        "eslint-plugin-vue": "^4.2.0",
-        "vue-eslint-parser": "^2.0.2"
+        "eslint-plugin-vue": "^4.3.0",
+        "vue-eslint-parser": "^2.0.3"
     }
 }

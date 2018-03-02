@@ -78,10 +78,14 @@ module.exports = {
             },
         ],
         'import/newline-after-import': 'error', // enforce a newline after import statements
+        'import/no-default-export': 'off', // allow default exports
         'import/prefer-default-export': 'error', // prefer a default export if module exports a single name
+        'import/group-exports': 'off', // allow export statements anywhere
         'import/max-dependencies': 'off', // limit the maximum number of dependencies a module can have
         'import/no-unassigned-import': 'off', // forbid unassigned imports
         'import/no-named-default': 'error', // forbid named default exports
         'import/no-anonymous-default-export': 'off', // forbid anonymous values as default exports
+        'import/no-self-import': 'error', // don't import yourself
+        'import/no-useless-path-segments': 'error', // don't change directories to import more than needed
     },
 };

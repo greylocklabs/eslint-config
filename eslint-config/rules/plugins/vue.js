@@ -68,6 +68,7 @@ module.exports = {
         'vue/v-bind-style': 'error', // enforce v-bind directive style
         'vue/v-on-style': 'error', // enforce v-on directive style
 
+        'vue/attributes-order': 'error', // enforce order of attributes
         'vue/html-quotes': 'error', // enforce quotes style of HTML attributes
         'vue/no-confusing-v-for-v-if': 'error', // disallow confusing v-for and v-if on the same element
         'vue/order-in-components': 'off', // don't care about component key order
@@ -75,6 +76,7 @@ module.exports = {
 
         'vue/html-closing-bracket-newline': 'error', // closing bracket on same line as tag name
         'vue/html-closing-bracket-spacing': 'error', // no spaces between tag name and bracket unless self-closing end
+        'vue/prop-name-casing': 'error', // enforce proper casing of props in vue components (camelCase)
         'vue/script-indent': 'off', // let normal eslint handle this
     },
 };

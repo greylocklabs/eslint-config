@@ -18,7 +18,7 @@ test.beforeEach((t) => {
 
 test('ESLint config fails for improperly formatted .js file', (t) => {
     const report = t.context.cli.executeOnFiles([ 'data/bad.js' ]);
-    const numErrors = 25;
+    const numErrors = 19;
     const numWarnings = 1;
 
     t.is(report.errorCount, numErrors);
@@ -34,7 +34,7 @@ test('ESLint config passes for properly formatted .js file', (t) => {
 
 test('ESLint config fails for improperly formatted .vue file', (t) => {
     const report = t.context.cli.executeOnFiles([ 'data/bad.vue' ]);
-    const numErrors = 5;
+    const numErrors = 7;
     const numWarnings = 0;
 
     t.is(report.errorCount, numErrors);

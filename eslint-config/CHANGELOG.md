@@ -6,9 +6,26 @@ All notable changes to this project will be documented in this file. The format 
 
 ---
 
-## [Unreleased](https://github.com/greylocklabs/js/compare/1.9.1...HEAD)
+## [Unreleased](https://github.com/greylocklabs/js/compare/1.9.2...HEAD)
 
 - N/A
+
+## [1.9.2][45] - 2018-03-02
+
+### Added
+
+Support for newly available linter rules:
+
+- [`flowtype/newline-after-flow-annotation`][38] error
+- [`flowtype/require-types-at-top`][39] error
+- [`import/no-self-import`][40] error
+- [`import/no-useless-path-segments`][41] error
+- [`vue/attributes-order`][42] error
+- [`vue/prop-name-casing`][43] error (camelCase required)
+
+### Changed
+
+- Relax [`flowtype/require-variable-type`][44] until rule allows for function expressions
 
 ## [1.9.1][34] - 2018-01-25
 
@@ -167,3 +184,11 @@ All notable changes to this project will be documented in this file. The format 
 [35]: https://github.com/vuejs/eslint-plugin-vue
 [36]: https://github.com/benmosher/eslint-plugin-import/blob/master/docs/rules/no-unresolved.md
 [37]: https://github.com/gajus/eslint-plugin-flowtype#eslint-plugin-flowtype-rules-require-exact-type
+[38]: https://github.com/gajus/eslint-plugin-flowtype/blob/master/.README/rules/newline-after-flow-annotation.md
+[39]: https://github.com/gajus/eslint-plugin-flowtype/blob/master/.README/rules/require-types-at-top.md
+[40]: https://github.com/benmosher/eslint-plugin-import/blob/master/docs/rules/no-self-import.md
+[41]: https://github.com/benmosher/eslint-plugin-import/blob/master/docs/rules/no-useless-path-segments.md
+[42]: https://github.com/vuejs/eslint-plugin-vue/blob/master/docs/rules/attributes-order.md
+[43]: https://github.com/vuejs/eslint-plugin-vue/blob/master/docs/rules/prop-name-casing.md
+[44]: https://github.com/gajus/eslint-plugin-flowtype/blob/master/.README/rules/require-variable-type.md
+[45]: https://github.com/greylocklabs/js/compare/1.9.1...1.9.2
