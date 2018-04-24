@@ -6,9 +6,15 @@ All notable changes to this project will be documented in this file. The format 
 
 ---
 
-## [Unreleased](https://github.com/greylocklabs/js/compare/1.12.0...HEAD)
+## [Unreleased](https://github.com/greylocklabs/js/compare/1.12.1...HEAD)
 
 - N/A
+
+## [1.12.1][46] - 2018-04-24
+
+## Changed
+
+- Update rules
 
 ## [1.12.0][45] - 2018-03-02
 
