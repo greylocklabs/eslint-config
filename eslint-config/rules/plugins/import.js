@@ -55,6 +55,7 @@ module.exports = {
 
         'import/unambiguous': 'off', // warn if a module could be mistakenly parsed as a script by a consumer
         'import/no-commonjs': 'off', // disallow require() statements
+        'import/no-cycle': 'error', // no resolvable path back to this module via its dependencies
         'import/no-amd': 'error', // disallow AMD define() statements
         'import/no-nodejs-modules': 'off', // disallow internal node modules
 

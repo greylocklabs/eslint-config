@@ -24,8 +24,11 @@ module.exports = {
         'promise/no-return-in-finally': 'warn', // disallow return statements in finally()
 
         'promise/no-native': 'off', // in an ES5 environment, make sure to create a Promise constructor before using
+        'promise/no-new-statics': 'error', // Calling a Promise static method with new is invalid
 
         'promise/prefer-await-to-then': 'error', // prefer await to then() for reading Promise values
         'promise/prefer-await-to-callbacks': 'off', // prefer async/await to the callback pattern
+
+        'promise/valid-params': 'error', // Ensures the proper number of arguments are passed to Promise functions
     },
 };
