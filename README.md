@@ -8,7 +8,7 @@ This guide assumes that you will be using [Babel][1] with the [env][2] preset to
 latest ECMAScript specifications (currently ES2017). This guide is a *work in progress*; an actual style guide will
 eventually be added in addition to the provided ESLint rules.
 
-Last updated: **05/14/2018**
+Last updated: **10/3/2018**
 
 ## Table of Contents
 
@@ -62,6 +62,7 @@ This will vary by the type of project, but these general rules apply:
 1. Source code - `src`
 2. Tests - `test`
     - Tests should be separated into subfolders by type; i.e. `test/unit`, `test/e2e`, etc.
+    - Alternatively, unit tests can be placed in the same directory
 3. Compiled code (i.e. Babel output, minified code) - `dist`
 4. Build tools - `build`
 5. Documentation - `docs`
@@ -69,12 +70,11 @@ This will vary by the type of project, but these general rules apply:
 ### Build tools
 
 Avoid the use of tools like Grunt and Gulp to run tasks, instead preferring NPM scripts. For complex front-end projects,
-tools like [Webpack][9] and [Browserify][10] are permitted.
+tools like [Webpack][9] and [Browserify][10] are recommended.
 
 ## JSDoc
 
-JSDoc comments should be used whenever applicable. While ESLint has some checks it can run against your code, it can't
-catch everything with regard to comments. Follow the guidelines below:
+While not all projects demand code comments, if JSDoc is going to be used, follow the guidelines below:
 
 ### File headers
 

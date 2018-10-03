@@ -9,41 +9,25 @@ import test from 'ava';
 import { CLIEngine } from 'eslint';
 
 test.beforeEach((t) => {
-    t.context.cli = new CLIEngine({
-        configFile: './index.js',
-        useEslintrc: true,
-        cwd: __dirname,
-    });
+  t.context.cli = new CLIEngine({
+    configFile: './index.js',
+    useEslintrc: true,
+    cwd: __dirname,
+  });
 });
 
-test('ESLint config fails for improperly formatted .js file', (t) => {
-    const report = t.context.cli.executeOnFiles([ 'data/bad.js' ]);
-    const numErrors = 18;
-    const numWarnings = 2;
+// eslint-disable-next-line jest/expect-expect
+test('eslint config fails for improperly formatted .js file', (t) => {
+  const report = t.context.cli.executeOnFiles([ 'data/bad.js' ]);
 
-    t.is(report.errorCount, numErrors);
-    t.is(report.warningCount, numWarnings);
+  t.is(report.errorCount, 14);
+  t.is(report.warningCount, 0);
 });
 
-test('ESLint config passes for properly formatted .js file', (t) => {
-    const report = t.context.cli.executeOnFiles([ 'data/good.js' ]);
+// eslint-disable-next-line jest/expect-expect
+test('eslint config passes for properly formatted .js file', (t) => {
+  const report = t.context.cli.executeOnFiles([ 'data/good.js' ]);
 
-    t.is(report.errorCount, 0);
-    t.is(report.warningCount, 0);
-});
-
-test('ESLint config fails for improperly formatted .vue file', (t) => {
-    const report = t.context.cli.executeOnFiles([ 'data/bad.vue' ]);
-    const numErrors = 7;
-    const numWarnings = 0;
-
-    t.is(report.errorCount, numErrors);
-    t.is(report.warningCount, numWarnings);
-});
-
-test('ESLint config passes for properly formatted .vue file', (t) => {
-    const report = t.context.cli.executeOnFiles([ 'data/good.vue' ]);
-
-    t.is(report.errorCount, 0);
-    t.is(report.warningCount, 0);
+  t.is(report.errorCount, 0);
+  t.is(report.warningCount, 0);
 });

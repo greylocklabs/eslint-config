@@ -6,24 +6,25 @@
  */
 
 module.exports = {
-    extends: [
-        './rules/best-practices',
-        './rules/errors',
-        './rules/es6',
-        './rules/nodejs',
-        './rules/strict-mode',
-        './rules/style',
-        './rules/variables',
+  extends: [
+    './rules/best-practices',
+    './rules/errors',
+    './rules/es6',
+    './rules/nodejs',
+    './rules/strict-mode',
+    './rules/style',
+    './rules/variables',
 
-        './rules/plugins/ava',
-        './rules/plugins/flowtype',
-        './rules/plugins/import',
-        './rules/plugins/promise',
-        './rules/plugins/security',
-        './rules/plugins/vue',
-    ].map(require.resolve),
-    parserOptions: {
-        ecmaVersion: 2017,
-        sourceType: 'module',
-    },
+    './rules/plugins/ava',
+    './rules/plugins/import',
+    './rules/plugins/jest',
+    './rules/plugins/promise',
+    './rules/plugins/react',
+    './rules/plugins/security',
+    './rules/plugins/typescript',
+  ].map(require.resolve),
+  parserOptions: {
+    ecmaVersion: 9,
+    sourceType: 'module',
+  },
 };

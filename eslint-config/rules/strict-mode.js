@@ -6,7 +6,7 @@
  */
 
 module.exports = { // babel takes care of strict mode
-    rules: {
-        strict: [ 'error', 'never' ],
-    },
+  rules: {
+    strict: [ 'error', 'never' ],
+  },
 };
