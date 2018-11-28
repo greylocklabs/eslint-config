@@ -36,6 +36,12 @@
     "test:unused": "eslint-find-rules --unused",
     "prepublishOnly": "npm run test"
   },
+  "husky": {
+    "hooks": {
+      "pre-commit": "npm test",
+      "pre-push": "npm test"
+    }
+  },
   "main": "index.js",
   "engines": {
     "node": ">= 6"
