@@ -6,11 +6,18 @@ All notable changes to this project will be documented in this file. The format 
 
 ---
 
-## [Unreleased](https://github.com/greylocklabs/js/compare/2.1.0...HEAD)
+## [Unreleased](https://github.com/greylocklabs/js/compare/2.1.1...HEAD)
 
 - N/A
 
-## [2.1.0][49] - 2018-05-14
+## [2.1.1][50] - 2018-11-28
+
+### Fixed
+
+- Use `browser` and `node` environment for React apps
+- Allow importing typescript files without `.ts(x)` extensions
+
+## [2.1.0][49] - 2018-11-27
 
 ### Added
 
@@ -224,3 +231,4 @@ Support for newly available linter rules:
 [47]: https://github.com/greylocklabs/js/compare/1.10.0...1.11.0
 [48]: https://github.com/greylocklabs/js/compare/1.11.0...1.12.0
 [49]: https://github.com/greylocklabs/js/compare/1.12.0...2.1.0
+[50]: https://github.com/greylocklabs/js/compare/2.1.0...2.1.1

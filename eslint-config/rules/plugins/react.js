@@ -7,6 +7,10 @@
 
 module.exports = {
   plugins: [ 'react' ],
+  env: {
+    browser: true,
+    node: true,
+  },
   parserOptions: {
     ecmaFeatures: {
       jsx: true,

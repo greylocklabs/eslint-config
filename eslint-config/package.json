@@ -1,6 +1,6 @@
 {
   "name": "@greylocklabs/eslint-config",
-  "version": "2.1.0",
+  "version": "2.1.1",
   "description": "Greylock Labs ESLint rules for all internal and public JavaScript projects",
   "author": {
     "name": "Ty-Lucas Kelley",

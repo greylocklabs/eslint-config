@@ -13,7 +13,7 @@ module.exports = {
         extensions: [ '.js', '.json' ],
       },
     },
-    'import/extensions': [ '.js', '.jsx', '.vue' ],
+    'import/extensions': [ '.js', '.jsx', '.vue', '.ts', '.tsx', '.json' ],
     'import/core-modules': [],
     'import/ignore': [
       'node_modules',
@@ -32,6 +32,9 @@ module.exports = {
       {
         js: 'never',
         jsx: 'never',
+        ts: 'never',
+        tsx: 'never',
+        json: 'never',
       },
     ],
 
