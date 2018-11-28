@@ -10,6 +10,13 @@ All notable changes to this project will be documented in this file. The format 
 
 - N/A
 
+## [2.2.0][52] - 2018-11-28
+
+### Added
+
+- Rules for Typescript
+- More rules for Jest
+
 ## [2.1.2][51] - 2018-11-28
 
 ### Fixed
@@ -239,3 +246,4 @@ Support for newly available linter rules:
 [49]: https://github.com/greylocklabs/js/compare/1.12.0...2.1.0
 [50]: https://github.com/greylocklabs/js/compare/2.1.0...2.1.1
 [51]: https://github.com/greylocklabs/js/compare/2.1.1...2.1.2
+[52]: https://github.com/greylocklabs/js/compare/2.1.2...2.2.0

@@ -1,6 +1,6 @@
 {
   "name": "@greylocklabs/eslint-config",
-  "version": "2.1.2",
+  "version": "2.2.0",
   "description": "Greylock Labs ESLint rules for all internal and public JavaScript projects",
   "author": {
     "name": "Ty-Lucas Kelley",
@@ -29,10 +29,10 @@
   ],
   "scripts": {
     "lint": "npm run lint:js && npm run lint:md",
-    "lint:js": "eslint --report-unused-disable-directives index.js rules/** test/index.js",
+    "lint:js": "eslint --report-unused-disable-directives index.js rules/** test/index.test.js",
     "lint:md": "markdownlint README.md CHANGELOG.md",
     "pretest": "npm run lint",
-    "test": "ava test/index.js",
+    "test": "jest test/",
     "test:unused": "eslint-find-rules --unused",
     "prepublishOnly": "npm run test"
   },
@@ -46,36 +46,32 @@
   "engines": {
     "node": ">= 6"
   },
-  "ava": {
-    "require": "babel-register",
-    "babel": "inherit",
-    "verbose": true
-  },
   "devDependencies": {
-    "ava": "0.25.0",
     "babel-cli": "6.26.0",
     "babel-eslint": "10.0.1",
     "babel-preset-env": "1.7.0",
     "eslint": "5.9.0",
     "eslint-find-rules": "3.3.1",
-    "eslint-plugin-ava": "5.1.1",
     "eslint-plugin-import": "2.14.0",
-    "eslint-plugin-jest": "22.1.0",
+    "eslint-plugin-jest": "21.27.2",
     "eslint-plugin-promise": "4.0.1",
     "eslint-plugin-react": "7.11.1",
     "eslint-plugin-security": "1.4.0",
     "eslint-plugin-typescript": "0.14.0",
     "husky": "1.2.0",
+    "jest": "23.6.0",
     "markdownlint-cli": "0.13.0",
+    "react": "16.6.3",
+    "shelljs": "0.8.3",
     "typescript": "3.1.6",
     "typescript-eslint-parser": "21.0.1"
   },
   "peerDependencies": {
     "babel-eslint": "^10.0.1",
-    "eslint": "^5.7.0",
-    "eslint-plugin-ava": "^5.1.1",
+    "babel-preset-env": "^1.7.0",
+    "eslint": "^5.9.0",
     "eslint-plugin-import": "^2.14.0",
-    "eslint-plugin-jest": "^21.25.1",
+    "eslint-plugin-jest": "^22.27.2",
     "eslint-plugin-promise": "^4.0.1",
     "eslint-plugin-react": "^7.11.1",
     "eslint-plugin-security": "^1.4.0",

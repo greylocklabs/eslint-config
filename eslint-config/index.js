@@ -15,7 +15,6 @@ module.exports = {
     './rules/style',
     './rules/variables',
 
-    './rules/plugins/ava',
     './rules/plugins/import',
     './rules/plugins/jest',
     './rules/plugins/promise',

@@ -6,10 +6,6 @@
  */
 
 module.exports = {
-  parserOptions: {
-    ecmaVersion: 2017,
-    sourceType: 'module',
-  },
   plugins: [ 'promise' ],
   rules: {
     'promise/catch-or-return': 'error', // enforces the use of catch() on un-returned promises

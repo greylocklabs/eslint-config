@@ -12,6 +12,9 @@ module.exports = {
       jsx: true,
     },
   },
+  env: {
+    jest: true,
+  },
   rules: {
     'jest/consistent-test-it': 'error', // enforce consistent test or it keyword
 
@@ -27,11 +30,14 @@ module.exports = {
     'jest/no-jasmine-globals': 'error', // disallow jasmine globals
     'jest/no-jest-import': 'error', // disallow importing jest
     'jest/no-large-snapshots': 'off', // disallow large snapshots
+    'jest/no-test-callback': 'error', // no using callback in async tests
     'jest/no-test-prefixes': 'error', // disallow using f & x prefixes to define focused/skipped tests
     'jest/no-test-return-statement': 'error', // disallow explicitly returning from tests
+    'jest/no-truthy-falsy': 'off', // allow using toBeTruthy and toBeFalsy
 
     'jest/prefer-expect-assertions': 'off', // suggest using expect.assertions() OR expect.hasAssertions()
     'jest/prefer-inline-snapshots': 'off', // suggest using inline snapshots
+    'jest/prefer-spy-on': 'off', // don't suggest using jest.spyOn()
     'jest/prefer-strict-equal': 'error', // suggest using toStrictEqual()
     'jest/prefer-to-be-null': 'error', // suggest using toBeNull()
     'jest/prefer-to-be-undefined': 'error', // suggest using toBeUndefined()
