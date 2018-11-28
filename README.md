@@ -5,15 +5,14 @@
 ---
 
 This guide assumes that you will be using [Babel][1] with the [env][2] preset to write JavaScript conforming to the
-latest ECMAScript specifications (currently ES2017). This guide is a *work in progress*; an actual style guide will
-eventually be added in addition to the provided ESLint rules.
+latest ECMAScript specifications (currently ES2018 / ES9). This guide is a *work in progress*; an actual style guide
+will eventually be added in addition to the provided ESLint rules.
 
-Last updated: **10/3/2018**
+Last updated: **11/28/2018**
 
 ## Table of Contents
 
 1. [Writing JavaScript](#writing-javascript)
-    - [A note on Flow](#a-note-on-flow)
 2. [Project structure](#project-structure)
     - [Filenames](#filenames)
     - [Directories](#directories)
@@ -30,14 +29,6 @@ Last updated: **10/3/2018**
 
 The best way to learn about the style guide is to simply start writing code that conforms to it. Install the ESLint
 plugin by following the directions [here][3] and start coding!
-
-### A note on Flow
-
-The Flow type checking library should be used, unless using it makes development inconvenient. It it still a work in
-progress, so use your best judgement before including it in a project. It can be integrated slowly into a large project
-easily, as files are ignored by our ESLint configuration unless they contain an `// @flow` comment at the top.
-
-Read more about Flow [here][8].
 
 ## Project structure
 
@@ -78,9 +69,8 @@ While not all projects demand code comments, if JSDoc is going to be used, follo
 
 ### File headers
 
-At the top of every file, below the `@flow` annotation (if applicable), there should be basic information about the
-file. At minimum, you need the `@file`, `@author`, and `@copyright` annotations. For modules, use the `@module`
-annotation as well. Example:
+At the top of every file there should be basic information about the file. At minimum, you need the `@file`, `@author`,
+and `@copyright` annotations. For modules, use the `@module` annotation as well. Example:
 
 ```js
 /**
@@ -190,7 +180,7 @@ config file from [this project][11].
 ## Testing
 
 The [AVA][4] library should be used in most cases, with [Istanbul][5] for code coverage. For load testing,
-use [Artillery][6]. When browser testing is required, use [WebDriver][7].
+use [Artillery][6]. When browser testing is required, use [WebDriver][7]. For React projects, use [Jest][8],
 
 [1]: https://babeljs.io
 [2]: https://github.com/babel/babel/tree/master/packages/babel-preset-env
@@ -199,7 +189,7 @@ use [Artillery][6]. When browser testing is required, use [WebDriver][7].
 [5]: https://istanbul.js.org
 [6]: https://artillery.io
 [7]: http://webdriver.io
-[8]: https://flow.org
+[8]: https://jestjs.io
 [9]: http://webpack.js.org
 [10]: http://browserify.org
 [11]: https://github.com/greylocklabs/js/blob/master/.markdownlintrc

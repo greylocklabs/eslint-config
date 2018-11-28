@@ -6,25 +6,29 @@ All notable changes to this project will be documented in this file. The format 
 
 ---
 
-## [Unreleased](https://github.com/greylocklabs/js/compare/1.12.2...HEAD)
+## [Unreleased](https://github.com/greylocklabs/js/compare/2.1.0...HEAD)
 
 - N/A
 
-## [1.12.2][] - 2018-05-14
+## [2.1.0][49] - 2018-05-14
 
-## Changed
+### Added
 
-- Update dependencies
-- Clean up `CHANGELOG.md`
-- Update documentation & examples
+- React rules
+- Jest rules
 
-## [1.12.1][] - 2018-04-24
+### Changed
 
-## Changed
+- 2 instead of 4 spaces
+- Allow for one-line if statements
+- Disable warning for lack of JSDoc comments
 
-- Update rules
+### Removed
 
-## [1.12.0][45] - 2018-03-02
+- Vue rules
+- Flow rules
+
+## [1.12.0][48] - 2018-03-02
 
 ### Added
 
@@ -218,3 +222,5 @@ Support for newly available linter rules:
 [45]: https://github.com/greylocklabs/js/compare/1.11.0...1.12.0
 [46]: https://github.com/greylocklabs/js/compare/1.9.1...1.10.0
 [47]: https://github.com/greylocklabs/js/compare/1.10.0...1.11.0
+[48]: https://github.com/greylocklabs/js/compare/1.11.0...1.12.0
+[49]: https://github.com/greylocklabs/js/compare/1.12.0...2.1.0
