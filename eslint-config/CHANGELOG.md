@@ -6,9 +6,15 @@ All notable changes to this project will be documented in this file. The format 
 
 ---
 
-## [Unreleased](https://github.com/greylocklabs/js/compare/2.1.1...HEAD)
+## [Unreleased](https://github.com/greylocklabs/js/compare/2.1.2...HEAD)
 
 - N/A
+
+## [2.1.2][51] - 2018-11-28
+
+### Fixed
+
+- Actually fix file extension issue for: '.js', '.jsx', '.vue', '.ts', '.tsx', '.json'
 
 ## [2.1.1][50] - 2018-11-28
 
@@ -232,3 +238,4 @@ Support for newly available linter rules:
 [48]: https://github.com/greylocklabs/js/compare/1.11.0...1.12.0
 [49]: https://github.com/greylocklabs/js/compare/1.12.0...2.1.0
 [50]: https://github.com/greylocklabs/js/compare/2.1.0...2.1.1
+[51]: https://github.com/greylocklabs/js/compare/2.1.1...2.1.2

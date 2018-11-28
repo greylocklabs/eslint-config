@@ -10,14 +10,14 @@ module.exports = {
   settings: {
     'import/resolver': {
       node: {
-        extensions: [ '.js', '.json' ],
+        extensions: [ '.js', '.jsx', '.vue', '.ts', '.tsx', '.json' ],
       },
     },
     'import/extensions': [ '.js', '.jsx', '.vue', '.ts', '.tsx', '.json' ],
     'import/core-modules': [],
     'import/ignore': [
       'node_modules',
-      '\\.(coffee|scss|css|less|hbs|svg|json)$',
+      '\\.(coffee|scss|css|less|hbs|svg)$',
     ],
   },
   rules: {
@@ -35,6 +35,7 @@ module.exports = {
         ts: 'never',
         tsx: 'never',
         json: 'never',
+        vue: 'never',
       },
     ],
 
