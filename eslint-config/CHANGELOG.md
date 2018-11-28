@@ -6,7 +6,7 @@ All notable changes to this project will be documented in this file. The format 
 
 ---
 
-## [Unreleased](https://github.com/greylocklabs/js/compare/2.1.2...HEAD)
+## [Unreleased](https://github.com/greylocklabs/js/compare/2.2.0...HEAD)
 
 - N/A
 
@@ -16,6 +16,15 @@ All notable changes to this project will be documented in this file. The format 
 
 - Rules for Typescript
 - More rules for Jest
+
+### Changed
+
+- Updated tests
+- Cleaned up duplicate plugin settings
+
+### Removed
+
+- Ava rules
 
 ## [2.1.2][51] - 2018-11-28
 
