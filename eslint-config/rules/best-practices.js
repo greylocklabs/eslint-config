@@ -2,7 +2,7 @@
  * @file Rules from the Best Practices section: https://eslint.org/docs/rules/#best-practices
  *
  * @author Ty-Lucas Kelley <ty@greylocklabs.com> (https://greylocklabs.com)
- * @copyright Copyright (c) 2017-2018 Greylock Labs. See LICENSE file for details.
+ * @copyright Copyright (c) 2017-2019 Greylock Labs. See LICENSE file for details.
  */
 
 const complexity = 15;
@@ -140,6 +140,7 @@ module.exports = {
     'no-unused-expressions': 'error', // no unused expressions that don't affect program state
     'no-unused-labels': 'error', // no unused labels
     'no-useless-call': 'error', // no unneeded .call() and .apply()
+    'no-useless-catch': 'error', // don't catch and just throw an error anyway
     'no-useless-concat': 'error', // don't do "a" + "b" when you can do "ab"
     'no-useless-escape': 'error', // disallow unnecessary string ecape characters
     'no-useless-return': 'error', // no unnecessary return statements

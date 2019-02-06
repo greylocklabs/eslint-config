@@ -8,7 +8,7 @@ This guide assumes that you will be using [Babel][1] with the [env][2] preset to
 latest ECMAScript specifications (currently ES2018 / ES9). This guide is a *work in progress*; an actual style guide
 will eventually be added in addition to the provided ESLint rules.
 
-Last updated: **11/28/2018**
+Last updated: **2/6/2019**
 
 ## Table of Contents
 

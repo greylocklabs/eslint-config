@@ -2,7 +2,7 @@
  * @file Rules from the Stylistic Issues section: https://eslint.org/docs/rules/#stylistic-issues
  *
  * @author Ty-Lucas Kelley <ty@greylocklabs.com> (https://greylocklabs.com)
- * @copyright Copyright (c) 2017-2018 Greylock Labs. See LICENSE file for details.
+ * @copyright Copyright (c) 2017-2019 Greylock Labs. See LICENSE file for details.
  */
 
 const indentSize = 2;

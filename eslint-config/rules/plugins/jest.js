@@ -2,7 +2,7 @@
  * @file Rules for eslint-plugin-jest
  *
  * @author Ty-Lucas Kelley <ty@greylocklabs.com> (https://greylocklabs.com)
- * @copyright Copyright (c) 2017-2018 Greylock Labs. See LICENSE file for details.
+ * @copyright Copyright (c) 2017-2019 Greylock Labs. See LICENSE file for details.
  */
 
 module.exports = {
@@ -39,6 +39,7 @@ module.exports = {
     'jest/prefer-inline-snapshots': 'off', // suggest using inline snapshots
     'jest/prefer-spy-on': 'off', // don't suggest using jest.spyOn()
     'jest/prefer-strict-equal': 'error', // suggest using toStrictEqual()
+    'jest/prefer-todo': 'error', // prefer test.todo to skip and empty test
     'jest/prefer-to-be-null': 'error', // suggest using toBeNull()
     'jest/prefer-to-be-undefined': 'error', // suggest using toBeUndefined()
     'jest/prefer-to-contain': 'error', // suggest using toContain()

@@ -6,9 +6,17 @@ All notable changes to this project will be documented in this file. The format 
 
 ---
 
-## [Unreleased](https://github.com/greylocklabs/js/compare/2.2.0...HEAD)
+## [Unreleased](https://github.com/greylocklabs/js/compare/2.3.0...HEAD)
 
 - N/A
+
+## [2.3.0][53] - 2019-02-06
+
+### Changed
+
+- Use new @typescript-eslint packages
+- Update all package versions to latest
+- Babel 7 :tada:
 
 ## [2.2.0][52] - 2018-11-28
 
@@ -256,3 +264,4 @@ Support for newly available linter rules:
 [50]: https://github.com/greylocklabs/js/compare/2.1.0...2.1.1
 [51]: https://github.com/greylocklabs/js/compare/2.1.1...2.1.2
 [52]: https://github.com/greylocklabs/js/compare/2.1.2...2.2.0
+[53]: https://github.com/greylocklabs/js/compare/2.2.0...2.3.0

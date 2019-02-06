@@ -2,7 +2,7 @@
  * @file Rules for eslint-plugin-import
  *
  * @author Ty-Lucas Kelley <ty@greylocklabs.com> (https://greylocklabs.com)
- * @copyright Copyright (c) 2017-2018 Greylock Labs. See LICENSE file for details.
+ * @copyright Copyright (c) 2017-2019 Greylock Labs. See LICENSE file for details.
  */
 
 module.exports = {
@@ -69,6 +69,7 @@ module.exports = {
     'import/no-named-as-default': 'error', // report use of exported name as identifier of default export
     'import/no-named-as-default-member': 'error', // report use of exported name as property of default export
     'import/no-named-default': 'error', // forbid named default exports
+    'import/no-named-export': 'off', // allow named exports
     'import/no-namespace': 'off', // report namespace imports
     'import/no-nodejs-modules': 'off', // disallow internal node modules
     'import/no-relative-parent-imports': 'off', // prevent imports to folders in relative parent paths

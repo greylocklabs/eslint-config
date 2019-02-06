@@ -2,7 +2,7 @@
  * @file Rules from the Possible Errors section: https://eslint.org/docs/rules/#possible-errors
  *
  * @author Ty-Lucas Kelley <ty@greylocklabs.com> (https://greylocklabs.com)
- * @copyright Copyright (c) 2017-2018 Greylock Labs. See LICENSE file for details.
+ * @copyright Copyright (c) 2017-2019 Greylock Labs. See LICENSE file for details.
  */
 
 module.exports = {

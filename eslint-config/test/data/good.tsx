@@ -5,10 +5,10 @@ class App extends React.Component {
     loading: true,
   };
 
-  render() {
+  render(): JSX.Element {
     const { loading } = this.state;
 
-    return <div prop={loading} />;
+    return <div loading={loading} />;
   }
 }
 
