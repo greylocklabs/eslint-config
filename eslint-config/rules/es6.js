@@ -1,10 +1,3 @@
-/**
- * @file Rules from the ECMAScript 6 section: https://eslint.org/docs/rules/#ecmascript-6
- *
- * @author Ty-Lucas Kelley <ty@greylocklabs.com> (https://greylocklabs.com)
- * @copyright Copyright (c) 2017-2019 Greylock Labs. See LICENSE file for details.
- */
-
 module.exports = {
   env: {
     es6: true,
@@ -24,7 +17,7 @@ module.exports = {
       },
     ],
 
-    'implicit-arrow-linebreak': 'error', // no line break between the arrow and function body
+    'implicit-arrow-linebreak': 'off', // allow line break between the arrow and function body
 
     'no-class-assign': 'error', // disallow modifying variables of class declarations
     'no-confusing-arrow': [ 'error', { allowParens: true } ], // avoid arrow functions that look like comparisons unless using parentheses

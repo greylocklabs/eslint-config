@@ -6,9 +6,20 @@ All notable changes to this project will be documented in this file. The format 
 
 ---
 
-## [Unreleased](https://github.com/greylocklabs/js/compare/2.3.0...HEAD)
+## [Unreleased](https://github.com/greylocklabs/js/compare/2.4.0...HEAD)
 
 - N/A
+
+## [2.4.0][54] - 2019-02-20
+
+### Added
+
+- Support for both React and Vue
+
+### Changed
+
+- More test coverage
+- Support ES2019 syntax
 
 ## [2.3.0][53] - 2019-02-06
 
@@ -161,9 +172,9 @@ Support for newly available linter rules:
 - [`object-shorthand`][12] - Relaxed rule to `consistent-as-needed` setting
 - [`func-style`][13] - Allow for arrow functions
 - [`eslint-plugin-flowtype`][14] changes:
-    - [`flowtype/require-parameter-type`][15] - now throws error
-    - [`flowtype/require-return-type`][16] - now throws error
-    - [`flowtype/require-valid-file-annotation`][17] - now throws error
+  - [`flowtype/require-parameter-type`][15] - now throws error
+  - [`flowtype/require-return-type`][16] - now throws error
+  - [`flowtype/require-valid-file-annotation`][17] - now throws error
 - [`eslint-plugin-security`][18] - Allow for object bracket notation
 
 ## [1.3.0][9] - 2017-11-13
@@ -171,15 +182,15 @@ Support for newly available linter rules:
 ### Added
 
 - Support for Flow via [eslint-plugin-flowtype][8]
-    - Optional for projects that don't use flow - only checks files with flow annotation
+  - Optional for projects that don't use flow - only checks files with flow annotation
 
 ## [1.2.0][7] - 2017-11-13
 
 ### Changed
 
 - Relax rules for [`eslint-plugin-promise`][6]:
-    - Turn off `promise/avoid-new`
-    - Turn off `promise/prefer-await-to-callbacks`
+  - Turn off `promise/avoid-new`
+  - Turn off `promise/prefer-await-to-callbacks`
 
 ## [1.1.0][5] - 2017-11-11
 

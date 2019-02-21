@@ -1,10 +1,3 @@
-/**
- * @file Rules from the Best Practices section: https://eslint.org/docs/rules/#best-practices
- *
- * @author Ty-Lucas Kelley <ty@greylocklabs.com> (https://greylocklabs.com)
- * @copyright Copyright (c) 2017-2019 Greylock Labs. See LICENSE file for details.
- */
-
 const complexity = 15;
 
 module.exports = {
@@ -17,9 +10,9 @@ module.exports = {
     'class-methods-use-this': 'error', // class methods that don't use 'this' should be written as static methods
     complexity: [ 'error', complexity ], // max number of independent paths in a function
     'consistent-return': [ 'error', { treatUndefinedAsUnspecified: false } ], // return statements must always or never specify a value
-    curly: [ 'error', 'multi' ], // always use curly braces in block statements unless one-liner
+    curly: [ 'error', 'multi-line' ], // always use curly braces in block statements unless one-liner
 
-    'default-case': 'error', // switch statements must have a default case
+    'default-case': 'off', // switch statements don't need a default case
     'dot-location': [ 'error', 'property' ], // if object separates properties by newlines, dot should come on same line as property
     'dot-notation': 'error', // always prefer dot notation over bracket notation when possible
 

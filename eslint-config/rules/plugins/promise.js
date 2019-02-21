@@ -1,10 +1,3 @@
-/**
- * @file Rules for eslint-plugin-promise
- *
- * @author Ty-Lucas Kelley <ty@greylocklabs.com> (https://greylocklabs.com)
- * @copyright Copyright (c) 2017-2019 Greylock Labs. See LICENSE file for details.
- */
-
 module.exports = {
   plugins: [ 'promise' ],
   rules: {

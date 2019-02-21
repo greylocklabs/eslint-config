@@ -5,10 +5,10 @@
 ---
 
 This guide assumes that you will be using [Babel][1] with the [env][2] preset to write JavaScript conforming to the
-latest ECMAScript specifications (currently ES2018 / ES9). This guide is a *work in progress*; an actual style guide
+latest ECMAScript specifications (currently ES2019 (v10)). This guide is a *work in progress*; an actual style guide
 will eventually be added in addition to the provided ESLint rules.
 
-Last updated: **2/6/2019**
+Last updated: **2/20/2019**
 
 ## Table of Contents
 

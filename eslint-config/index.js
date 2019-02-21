@@ -1,10 +1,3 @@
-/**
- * @file Main ESLint config file
- *
- * @author Ty-Lucas Kelley <ty@greylocklabs.com> (https://greylocklabs.com)
- * @copyright Copyright (c) 2017-2019 Greylock Labs. See LICENSE file for details.
- */
-
 module.exports = {
   extends: [
     './rules/best-practices',
@@ -21,9 +14,10 @@ module.exports = {
     './rules/plugins/react',
     './rules/plugins/security',
     './rules/plugins/typescript',
+    './rules/plugins/vue',
   ].map(require.resolve),
   parserOptions: {
-    ecmaVersion: 9,
+    ecmaVersion: 10,
     sourceType: 'module',
   },
 };

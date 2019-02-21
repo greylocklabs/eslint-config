@@ -1,10 +1,3 @@
-/**
- * @file Rules for eslint-plugin-import
- *
- * @author Ty-Lucas Kelley <ty@greylocklabs.com> (https://greylocklabs.com)
- * @copyright Copyright (c) 2017-2019 Greylock Labs. See LICENSE file for details.
- */
-
 module.exports = {
   plugins: [ 'import' ],
   settings: {
@@ -88,7 +81,7 @@ module.exports = {
       },
     ],
 
-    'import/prefer-default-export': 'warn', // prefer a default export if module exports a single name
+    'import/prefer-default-export': 'off', // prefer a default export if module exports a single name
 
     'import/unambiguous': 'off', // warn if a module could be mistakenly parsed as a script by a consumer
   },

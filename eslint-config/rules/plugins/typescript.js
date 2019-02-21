@@ -1,14 +1,7 @@
-/**
- * @file Rules for eslint-plugin-typescript
- *
- * @author Ty-Lucas Kelley <ty@greylocklabs.com> (https://greylocklabs.com)
- * @copyright Copyright (c) 2017-2019 Greylock Labs. See LICENSE file for details.
- */
-
 module.exports = {
-  parser: '@typescript-eslint/parser',
   plugins: [ '@typescript-eslint' ],
   parserOptions: {
+    parser: '@typescript-eslint/parser',
     ecmaFeatures: {
       jsx: true,
     },
@@ -43,7 +36,7 @@ module.exports = {
     '@typescript-eslint/no-non-null-assertion': 'off', // allow for foo.bar!.baz instead of foo.bar && foo.bar.baz
     '@typescript-eslint/no-parameter-properties': 'off', // allow param props like readonly and private
     '@typescript-eslint/no-triple-slash-reference': 'error', // no longer needed due to es6 modules
-    '@typescript-eslint/no-type-alias': 'error', // prefer interface to type literal
+    '@typescript-eslint/no-type-alias': [ 'error', { allowAliases: 'in-unions' } ], // prefer interface to type literal
     '@typescript-eslint/no-unused-vars': 'error', // no unused types / interfaces / etc.
     '@typescript-eslint/no-use-before-define': 'error', // no hoisting
     '@typescript-eslint/no-var-requires': 'error', // prefer es6 import

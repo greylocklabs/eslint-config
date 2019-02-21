@@ -1,10 +1,3 @@
-/**
- * @file Rules from the Stylistic Issues section: https://eslint.org/docs/rules/#stylistic-issues
- *
- * @author Ty-Lucas Kelley <ty@greylocklabs.com> (https://greylocklabs.com)
- * @copyright Copyright (c) 2017-2019 Greylock Labs. See LICENSE file for details.
- */
-
 const indentSize = 2;
 const maxNestedCallbacks = 3;
 
@@ -132,7 +125,8 @@ module.exports = {
     'no-underscore-dangle': 'error', // disallow underscores
     'no-unneeded-ternary': 'error', // disallow unnecessary ternary
     'no-whitespace-before-property': 'error', // disallow whitespace before properties
-    'nonblock-statement-body-position': 'error', // enforce position of single line statements not in a block
+
+    'nonblock-statement-body-position': [ 'error', 'any' ], // enforce position of single line statements not in a block
 
     'object-curly-newline': [ // newline between braces if multiline object
       'error',
@@ -160,7 +154,7 @@ module.exports = {
     'prefer-object-spread': 'error', // prefer use of an object spread over Object.assign
 
     'quote-props': [ 'error', 'as-needed' ], // only quote object props if necessary
-    quotes: [ 'error', 'single' ],
+    quotes: [ 'error', 'single', { avoidEscape: true } ], // single quote unless it requires escaping
 
     'require-jsdoc': [ // do not require jsdoc annotations
       'off',

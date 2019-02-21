@@ -1,14 +1,7 @@
-/**
- * @file Rules for eslint-plugin-security
- *
- * @author Ty-Lucas Kelley <ty@greylocklabs.com> (https://greylocklabs.com)
- * @copyright Copyright (c) 2017-2019 Greylock Labs. See LICENSE file for details.
- */
-
-module.exports = {
+module.exports = { // see https://github.com/nodesecurity/eslint-plugin-security
   plugins: [ 'security' ],
   rules: {
-    'security/detect-buffer-noassert': 'warn', // for rationale behind all rules, see https://github.com/nodesecurity/eslint-plugin-security
+    'security/detect-buffer-noassert': 'warn',
     'security/detect-child-process': 'warn',
     'security/detect-disable-mustache-escape': 'warn',
     'security/detect-eval-with-expression': 'warn',
