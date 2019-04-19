@@ -6,9 +6,23 @@ All notable changes to this project will be documented in this file. The format 
 
 ---
 
-## [Unreleased](https://github.com/greylocklabs/js/compare/2.4.0...HEAD)
+## [Unreleased](https://github.com/greylocklabs/eslint-config/compare/3.0.1...HEAD)
 
 - N/A
+
+## [3.0.1][56] - 2019-04-19
+
+### Changed
+
+- Allow for explicit `any` in TypeScript code
+- Don't count variables ignored by rest siblings as unused vars
+
+## [3.0.0][55] - 2019-02-22
+
+### Changed
+
+- Restructured project to make it just the ESLint config
+- Fix support for importing Vue files in TypeScript projects
 
 ## [2.4.0][54] - 2019-02-20
 
@@ -223,15 +237,15 @@ Support for newly available linter rules:
 - Settings for the import, promise, ava, and security plugins
 - Placeholder tests
 
-[1]: https://github.com/greylocklabs/js/releases/tag/1.0.0
+[1]: https://github.com/greylocklabs/eslint-config/releases/tag/1.0.0
 [2]: https://eslint.org/docs/rules/valid-jsdoc
 [3]: https://eslint.org/docs/rules/lines-around-comment
 [4]: https://eslint.org/docs/rules/no-param-reassign
-[5]: https://github.com/greylocklabs/js/compare/1.0.0...1.1.0
+[5]: https://github.com/greylocklabs/eslint-config/compare/1.0.0...1.1.0
 [6]: https://github.com/xjamundx/eslint-plugin-promise
-[7]: https://github.com/greylocklabs/js/compare/1.1.0...1.2.0
+[7]: https://github.com/greylocklabs/eslint-config/compare/1.1.0...1.2.0
 [8]: https://github.com/gajus/eslint-plugin-flowtype
-[9]: https://github.com/greylocklabs/js/compare/1.2.0...1.3.0
+[9]: https://github.com/greylocklabs/eslint-config/compare/1.2.0...1.3.0
 [10]: https://eslint.org/docs/rules/no-param-reassign
 [11]: https://eslint.org/docs/rules/arrow-parens
 [12]: https://eslint.org/docs/rules/object-shorthand
@@ -241,22 +255,22 @@ Support for newly available linter rules:
 [16]: https://github.com/gajus/eslint-plugin-flowtype#eslint-plugin-flowtype-rules-require-return-type
 [17]: https://github.com/gajus/eslint-plugin-flowtype#require-valid-file-annotation
 [18]: https://github.com/nodesecurity/eslint-plugin-security
-[19]: https://github.com/greylocklabs/js/compare/1.3.0...1.4.0
-[20]: https://github.com/greylocklabs/js/compare/1.4.0...1.4.1
+[19]: https://github.com/greylocklabs/eslint-config/compare/1.3.0...1.4.0
+[20]: https://github.com/greylocklabs/eslint-config/compare/1.4.0...1.4.1
 [21]: https://eslint.org/docs/rules/no-magic-numbers
 [22]: https://eslint.org/docs/rules/no-undefined
-[23]: https://github.com/greylocklabs/js/compare/1.4.1...1.5.0
+[23]: https://github.com/greylocklabs/eslint-config/compare/1.4.1...1.5.0
 [24]: https://eslint.org/docs/rules/prefer-destructuring
-[25]: https://github.com/greylocklabs/js/compare/1.5.0...1.6.0
+[25]: https://github.com/greylocklabs/eslint-config/compare/1.5.0...1.6.0
 [26]: https://github.com/benmosher/eslint-plugin-import/blob/master/docs/rules/namespace.md
-[27]: https://github.com/greylocklabs/js/compare/1.6.0...1.7.0
+[27]: https://github.com/greylocklabs/eslint-config/compare/1.6.0...1.7.0
 [28]: https://github.com/nodesecurity/eslint-plugin-security#detect-non-literal-fs-filename
-[29]: https://github.com/greylocklabs/js/compare/1.7.0...1.8.0
+[29]: https://github.com/greylocklabs/eslint-config/compare/1.7.0...1.8.0
 [30]: https://github.com/gajus/eslint-plugin-flowtype#eslint-plugin-flowtype-rules-no-flow-fix-me-comments
 [31]: https://eslint.org/docs/rules/implicit-arrow-linebreak
-[32]: https://github.com/greylocklabs/js/compare/1.8.0...1.8.1
-[33]: https://github.com/greylocklabs/js/compare/1.8.1...1.8.2
-[34]: https://github.com/greylocklabs/js/compare/1.8.2...1.9.1
+[32]: https://github.com/greylocklabs/eslint-config/compare/1.8.0...1.8.1
+[33]: https://github.com/greylocklabs/eslint-config/compare/1.8.1...1.8.2
+[34]: https://github.com/greylocklabs/eslint-config/compare/1.8.2...1.9.1
 [35]: https://github.com/vuejs/eslint-plugin-vue
 [36]: https://github.com/benmosher/eslint-plugin-import/blob/master/docs/rules/no-unresolved.md
 [37]: https://github.com/gajus/eslint-plugin-flowtype#eslint-plugin-flowtype-rules-require-exact-type
@@ -267,12 +281,14 @@ Support for newly available linter rules:
 [42]: https://github.com/vuejs/eslint-plugin-vue/blob/master/docs/rules/attributes-order.md
 [43]: https://github.com/vuejs/eslint-plugin-vue/blob/master/docs/rules/prop-name-casing.md
 [44]: https://github.com/gajus/eslint-plugin-flowtype/blob/master/.README/rules/require-variable-type.md
-[45]: https://github.com/greylocklabs/js/compare/1.11.0...1.12.0
-[46]: https://github.com/greylocklabs/js/compare/1.9.1...1.10.0
-[47]: https://github.com/greylocklabs/js/compare/1.10.0...1.11.0
-[48]: https://github.com/greylocklabs/js/compare/1.11.0...1.12.0
-[49]: https://github.com/greylocklabs/js/compare/1.12.0...2.1.0
-[50]: https://github.com/greylocklabs/js/compare/2.1.0...2.1.1
-[51]: https://github.com/greylocklabs/js/compare/2.1.1...2.1.2
-[52]: https://github.com/greylocklabs/js/compare/2.1.2...2.2.0
-[53]: https://github.com/greylocklabs/js/compare/2.2.0...2.3.0
+[45]: https://github.com/greylocklabs/eslint-config/compare/1.11.0...1.12.0
+[46]: https://github.com/greylocklabs/eslint-config/compare/1.9.1...1.10.0
+[47]: https://github.com/greylocklabs/eslint-config/compare/1.10.0...1.11.0
+[48]: https://github.com/greylocklabs/eslint-config/compare/1.11.0...1.12.0
+[49]: https://github.com/greylocklabs/eslint-config/compare/1.12.0...2.1.0
+[50]: https://github.com/greylocklabs/eslint-config/compare/2.1.0...2.1.1
+[51]: https://github.com/greylocklabs/eslint-config/compare/2.1.1...2.1.2
+[52]: https://github.com/greylocklabs/eslint-config/compare/2.1.2...2.2.0
+[53]: https://github.com/greylocklabs/eslint-config/compare/2.2.0...2.3.0
+[54]: https://github.com/greylocklabs/eslint-config/compare/2.3.0...2.4.0
+[55]: https://github.com/greylocklabs/eslint-config/compare/2.4.0...3.0.0

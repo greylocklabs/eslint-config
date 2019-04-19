@@ -6,7 +6,7 @@ module.exports = {
         extensions: [ '.js', '.jsx', '.vue', '.ts', '.tsx', '.json' ],
       },
     },
-    'import/extensions': [ '.js', '.jsx', '.vue', '.ts', '.tsx', '.json' ],
+    'import/extensions': [ '.js', '.jsx', '.ts', '.tsx', '.json' ],
     'import/core-modules': [],
     'import/ignore': [
       'node_modules',
@@ -28,7 +28,6 @@ module.exports = {
         ts: 'never',
         tsx: 'never',
         json: 'never',
-        vue: 'never',
       },
     ],
 

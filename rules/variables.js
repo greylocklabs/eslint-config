@@ -73,7 +73,7 @@ module.exports = {
     'no-undef': 'error', // disallow undeclared variable unless global
     'no-undef-init': 'error', // don't initialize variable as undefined
     'no-undefined': 'off', // allow for use of undefined
-    'no-unused-vars': 'error', // all variables must be used if declared
+    'no-unused-vars': [ 'error', { ignoreRestSiblings: true } ], // all variables must be used if declared
     'no-use-before-define': 'error', // define before using a function, variable, or class
   },
 };

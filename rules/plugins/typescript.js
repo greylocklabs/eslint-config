@@ -30,14 +30,14 @@ module.exports = {
     '@typescript-eslint/no-angle-bracket-type-assertion': 'error', // .tsx can't be parsed without the "as Type" style
     '@typescript-eslint/no-array-constructor': 'error', // disallow Array constructor
     '@typescript-eslint/no-empty-interface': 'error', // disallow empty interfaces
-    '@typescript-eslint/no-explicit-any': 'error', // no any types
+    '@typescript-eslint/no-explicit-any': 'off', // allow explicit use of any
     '@typescript-eslint/no-inferrable-types': 'error', // don't define type for primitive types since they're easily inferred
     '@typescript-eslint/no-namespace': 'error', // prefer es6 style modules to outdated module/namespace syntax
     '@typescript-eslint/no-non-null-assertion': 'off', // allow for foo.bar!.baz instead of foo.bar && foo.bar.baz
     '@typescript-eslint/no-parameter-properties': 'off', // allow param props like readonly and private
     '@typescript-eslint/no-triple-slash-reference': 'error', // no longer needed due to es6 modules
     '@typescript-eslint/no-type-alias': [ 'error', { allowAliases: 'in-unions' } ], // prefer interface to type literal
-    '@typescript-eslint/no-unused-vars': 'error', // no unused types / interfaces / etc.
+    '@typescript-eslint/no-unused-vars': [ 'error', { ignoreRestSiblings: true } ], // no unused types / interfaces / etc.
     '@typescript-eslint/no-use-before-define': 'error', // no hoisting
     '@typescript-eslint/no-var-requires': 'error', // prefer es6 import
 
