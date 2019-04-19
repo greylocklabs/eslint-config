@@ -6,9 +6,15 @@ All notable changes to this project will be documented in this file. The format 
 
 ---
 
-## [Unreleased](https://github.com/greylocklabs/eslint-config/compare/3.0.1...HEAD)
+## [Unreleased](https://github.com/greylocklabs/eslint-config/compare/3.0.2...HEAD)
 
 - N/A
+
+## [3.0.2][57] - 2019-04-19
+
+### Fixed
+
+- Add `shelljs` to peer dependencies
 
 ## [3.0.1][56] - 2019-04-19
 
@@ -292,3 +298,5 @@ Support for newly available linter rules:
 [53]: https://github.com/greylocklabs/eslint-config/compare/2.2.0...2.3.0
 [54]: https://github.com/greylocklabs/eslint-config/compare/2.3.0...2.4.0
 [55]: https://github.com/greylocklabs/eslint-config/compare/2.4.0...3.0.0
+[56]: https://github.com/greylocklabs/eslint-config/compare/3.0.0...3.0.1
+[57]: https://github.com/greylocklabs/eslint-config/compare/3.0.1...3.0.2
