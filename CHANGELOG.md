@@ -10,6 +10,12 @@ All notable changes to this project will be documented in this file. The format 
 
 - N/A
 
+## [3.0.3][58] - 2019-04-19
+
+### Fixed
+
+- Fix `shelljs` output
+
 ## [3.0.2][57] - 2019-04-19
 
 ### Fixed
@@ -300,3 +306,4 @@ Support for newly available linter rules:
 [55]: https://github.com/greylocklabs/eslint-config/compare/2.4.0...3.0.0
 [56]: https://github.com/greylocklabs/eslint-config/compare/3.0.0...3.0.1
 [57]: https://github.com/greylocklabs/eslint-config/compare/3.0.1...3.0.2
+[58]: https://github.com/greylocklabs/eslint-config/compare/3.0.2...3.0.3

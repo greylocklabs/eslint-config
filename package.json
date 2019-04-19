@@ -1,6 +1,6 @@
 {
   "name": "@greylocklabs/eslint-config",
-  "version": "3.0.2",
+  "version": "3.0.3",
   "description": "Greylock Labs ESLint rules for all JavaScript / TypeScript projects",
   "author": {
     "name": "Ty-Lucas Kelley",
@@ -32,18 +32,19 @@
   ],
   "scripts": {
     "preinstall": "node -e \"if (!~process.env.npm_execpath.indexOf('yarn')) throw new Error('Install dependencies with yarn, not npm')\"",
-    "lint": "npm run lint:js && npm run lint:md",
-    "lint:js": "eslint --report-unused-disable-directives index.js rules/** test/index.test.js",
+    "lint": "yarn lint:js && yarn lint:unused && yarn lint:md",
+    "lint:js": "eslint rules/**/*.js",
+    "lint:unused": "eslint --report-unused-disable-directives index.js rules/** test/index.test.js",
     "lint:md": "markdownlint README.md CHANGELOG.md",
-    "pretest": "npm run lint",
+    "pretest": "yarn lint",
     "test": "jest",
     "test:unused": "eslint-find-rules --unused",
-    "prepublishOnly": "npm test"
+    "prepublishOnly": "yarn test"
   },
   "husky": {
     "hooks": {
-      "pre-commit": "npm test",
-      "pre-push": "npm test"
+      "pre-commit": "yarn test",
+      "pre-push": "yarn test"
     }
   },
   "main": "index.js",
