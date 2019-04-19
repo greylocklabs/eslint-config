@@ -1,6 +1,6 @@
 {
   "name": "@greylocklabs/eslint-config",
-  "version": "3.0.0",
+  "version": "3.0.1",
   "description": "Greylock Labs ESLint rules for all JavaScript / TypeScript projects",
   "author": {
     "name": "Ty-Lucas Kelley",

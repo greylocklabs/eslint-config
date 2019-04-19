@@ -6,7 +6,7 @@ let reactInstalled;
 try {
   require.resolve('react');
   reactInstalled = true;
-} catch {
+} catch (e) {
   reactInstalled = false;
 }
 
