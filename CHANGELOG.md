@@ -6,9 +6,15 @@ All notable changes to this project will be documented in this file. The format 
 
 ---
 
-## [Unreleased](https://github.com/greylocklabs/eslint-config/compare/3.0.2...HEAD)
+## [Unreleased](https://github.com/greylocklabs/eslint-config/compare/3.0.4...HEAD)
 
 - N/A
+
+## [3.0.4][59] - 2019-04-22
+
+### Fixed
+
+- Remove preinstall hook
 
 ## [3.0.3][58] - 2019-04-19
 
@@ -307,3 +313,4 @@ Support for newly available linter rules:
 [56]: https://github.com/greylocklabs/eslint-config/compare/3.0.0...3.0.1
 [57]: https://github.com/greylocklabs/eslint-config/compare/3.0.1...3.0.2
 [58]: https://github.com/greylocklabs/eslint-config/compare/3.0.2...3.0.3
+[59]: https://github.com/greylocklabs/eslint-config/compare/3.0.3...3.0.4
