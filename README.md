@@ -11,7 +11,7 @@ This package contains all of our ESLint rules.
 
 ## Installation
 
-Install the package and all of its peer dependencies:
+Install the package and all of its peer dependencies (works with `npm` or `yarn`):
 
 ```sh
 $ npx install-peerdeps --dev @greylocklabs/eslint-config
@@ -46,4 +46,4 @@ To run tests for this package, install the development dependencies with `npm in
 
 ## License
 
-MIT License. See LICENSE file for details.
+MIT License. See [LICENSE](./LICENSE) file for details.

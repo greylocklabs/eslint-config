@@ -1,4 +1,4 @@
-const shell = require('shelljs'); // eslint-disable-line @typescript-eslint/no-var-requires
+const shell = require('shelljs');
 
 const latestReactVersion = shell.exec('npm show react version', { silent: true }).stdout.replace('\n', '');
 let reactInstalled;
