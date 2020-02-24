@@ -32,16 +32,18 @@ module.exports = {
     'jest/prefer-inline-snapshots': 'off', // suggest using inline snapshots
     'jest/prefer-spy-on': 'off', // don't suggest using jest.spyOn()
     'jest/prefer-strict-equal': 'error', // suggest using toStrictEqual()
-    'jest/prefer-todo': 'error', // prefer test.todo to skip and empty test
     'jest/prefer-to-be-null': 'error', // suggest using toBeNull()
     'jest/prefer-to-be-undefined': 'error', // suggest using toBeUndefined()
     'jest/prefer-to-contain': 'error', // suggest using toContain()
     'jest/prefer-to-have-length': 'error', // suggest using toHaveLength()
+    'jest/prefer-todo': 'error', // prefer test.todo to skip and empty test
 
-    'jest/require-tothrow-message': 'error', // require a message for toThrow()
+    'jest/require-to-throw-message': 'error', // require a message for toThrow()
+    'jest/require-top-level-describe': 'error', // require a top-level describe block
 
     'jest/valid-describe': 'warn', // enforce valid describe() callback
     'jest/valid-expect-in-promise': 'error', // enforce having return statement when testing with promises
     'jest/valid-expect': 'error', // enforce valid expect() usage
+    'jest/valid-title': 'error', // describe/test titles should be valid
   },
 };

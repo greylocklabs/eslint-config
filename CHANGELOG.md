@@ -6,15 +6,23 @@ All notable changes to this project will be documented in this file. The format 
 
 ---
 
-## [Unreleased](https://github.com/greylocklabs/eslint-config/compare/3.1.1...HEAD)
+## [Unreleased](https://github.com/greylocklabs/eslint-config/compare/3.1.2...HEAD)
 
 - N/A
 
-## [3.1.1][60] - 2020-02-24
+## [3.1.2][60] - 2020-02-24
+
+### Added
+
+- Definitions for `jest/valid-title` and `jest/require-to-throw-message`
 
 ### Changed
 
 - Bump dependencies
+
+### Fixed
+
+- Remove settings from `import/named` rule that are now invalid
 
 ## [3.0.4][59] - 2019-04-22
 
@@ -320,4 +328,4 @@ Support for newly available linter rules:
 [57]: https://github.com/greylocklabs/eslint-config/compare/3.0.1...3.0.2
 [58]: https://github.com/greylocklabs/eslint-config/compare/3.0.2...3.0.3
 [59]: https://github.com/greylocklabs/eslint-config/compare/3.0.3...3.0.4
-[60]: https://github.com/greylocklabs/eslint-config/compare/3.0.4...3.1.1
+[60]: https://github.com/greylocklabs/eslint-config/compare/3.0.4...3.1.2

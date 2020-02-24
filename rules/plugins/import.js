@@ -37,13 +37,7 @@ module.exports = {
 
     'import/max-dependencies': 'off', // limit the maximum number of dependencies a module can have
 
-    'import/named': [ // ensure named imports correspond to a named export in the remote file
-      'error',
-      {
-        commonjs: true,
-        caseSensitive: true,
-      },
-    ],
+    'import/named': [ 'error' ], // ensure named imports correspond to a named export in the remote file
     'import/namespace': [ 'error', { allowComputed: true } ], // ensure imported namespaces contain dereferenced properties as they are dereferenced
     'import/newline-after-import': 'error', // enforce a newline after import statements
     'import/no-absolute-path': 'error', // forbid import of modules using absolute paths
