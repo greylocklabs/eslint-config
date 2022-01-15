@@ -72,7 +72,7 @@
     "jest": "25.1.0",
     "markdownlint-cli": "0.22.0",
     "react": "16.12.0",
-    "shelljs": "0.8.3",
+    "shelljs": "0.8.5",
     "typescript": "3.8.2",
     "vue": "^2.6.11"
   },
@@ -90,7 +90,7 @@
     "eslint-plugin-react": "^7.18.3",
     "eslint-plugin-security": "^1.4.0",
     "eslint-plugin-vue": "^6.2.1",
-    "shelljs": "0.8.3",
+    "shelljs": "0.8.5",
     "typescript": "^3.8.2"
   }
 }
